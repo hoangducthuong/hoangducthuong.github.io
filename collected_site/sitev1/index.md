@@ -1,5 +1,8 @@
 ---
-layout: default
+noteId: "e32b7e10e39611eba847f757d47068a2"
+tags: []
+layout: "default"
+
 ---
 
 **Hi there, I am [Thuong D. HOANG](https://hoangducthuong.github.io/)**

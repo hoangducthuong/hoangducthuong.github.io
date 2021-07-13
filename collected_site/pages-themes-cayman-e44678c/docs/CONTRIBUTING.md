@@ -1,3 +1,9 @@
+---
+noteId: "e50a5030e39611eba847f757d47068a2"
+tags: []
+
+---
+
 # Contributing to the Cayman theme
 
 Hi there! We're thrilled that you'd like to contribute to the Cayman theme. Your help is essential for keeping it great.

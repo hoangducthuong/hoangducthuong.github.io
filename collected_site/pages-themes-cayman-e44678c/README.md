@@ -1,3 +1,9 @@
+---
+noteId: "e50a7742e39611eba847f757d47068a2"
+tags: []
+
+---
+
 # The Cayman theme
 
 [![Build Status](https://travis-ci.org/pages-themes/cayman.svg?branch=master)](https://travis-ci.org/pages-themes/cayman) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-cayman.svg)](https://badge.fury.io/rb/jekyll-theme-cayman)

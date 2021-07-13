@@ -1,5 +1,8 @@
 ---
-layout: default
+noteId: "e50a5031e39611eba847f757d47068a2"
+tags: []
+layout: "default"
+
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
