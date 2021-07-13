@@ -90,13 +90,9 @@ CMB-S4.
 ```
 
 
-### Small image
-
-![Octocat](thumbnail.png)
-
 ### Large image
 
-![Branching](/image/thumbnail.png)
+![Branching](/images/thumbnail.png)
 
 
 ### Definition lists can be used with HTML syntax.
