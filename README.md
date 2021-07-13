@@ -2,7 +2,7 @@
 
 **Hi there, I am Thuong D. HOANG, a cosmologist and astrophysicist**
 
-_Definition of mine: Cosmic Microwaves Background, Transision Edge Sensor (TSE), Inflation, Magnetic fields, Dust polarization_
+_Definition about me: Cosmic Microwaves Background, Transision Edge Sensor (TSE), Inflation, Magnetic fields, Dust polarization_
 
 ---
 # About
