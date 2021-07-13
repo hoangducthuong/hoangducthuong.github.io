@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Thuong Hoang research
 ---
 
 **Hi there, I am Thuong D. HOANG, a cosmologist and astrophysicist**
