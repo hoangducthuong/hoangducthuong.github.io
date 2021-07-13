@@ -2,19 +2,9 @@
 layout: default
 ---
 
-
 **Hi there, I am Thuong D. HOANG, a cosmologist and astrophysicist**
 
 _Definition of mine: Big Bang theory, Inflation, Cosmic Microwaves Background, Transision Edge Sensor (TES), Cryogenics system, Magnetic fields and star formation, Dust polarization_
-
----
-# About
-
-I am currently a lecturer/researcher in the Department of Space and Applications (DSA) at University of Science and Technology of Hanoi (USTH) since January 1, 2021. 
-I obtained Ph.D in Physics of the Universe from AstroParticle and Cosmology (APC) laboratory, University of Paris, in 2018. 
-After completing PhD, I won an appointment as a postdoctoral associate at Cornell University. <br>
-
-<a href="/cv">Read more about my CV.</a>
 
 ---
 # Research
@@ -28,21 +18,6 @@ On the other hand, I am also investigating data analysis of magnetic fields in m
 I has published over 13 scientific journals publications and 8 conference proceeding papers for approval.<br>
 
 
----
-# Teaching
-
-* Basic Programming (C) <br>
-* Data Analysis and Visualization (Python) <br>
-* Mordern Cosmology  <br>
-
----
-# Talks
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
----
 # Selected publications
 
 1.  This is an ordered list following a header.
@@ -50,69 +25,3 @@ I has published over 13 scientific journals publications and 8 conference procee
 3.  This is an ordered list following a header.
 
 Google scholar: [https://scholar.google.com/citations?hl=en&user=X6_u9x0AAAAJ](https://scholar.google.com/citations?hl=en&user=X6_u9x0AAAAJ)
-
----
-# Ph.D manuscript
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-
-# There's a horizontal rule below this.
-
-* * *
-
-### Detail research topics:
-
-```
-LiteBIRD.
-```
-
-
-```
-QUBIC.
-```
-
-
-
-```
-Simons Observatory (SO).
-```
-
-
-
-
-```
-CMB-S4.
-```
-
-
-### Large image
-
-![Branching](/images/thumbnail.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
