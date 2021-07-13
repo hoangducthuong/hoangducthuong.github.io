@@ -2,11 +2,8 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+**Hi there, I am [Thuong D. HOANG](https://hoangducthuong.github.io/)**
 
-[Link to another page](./another-page.html).
-
-Hi there, I am Thuong D. HOANG
 
 ---
 # About
@@ -16,6 +13,7 @@ I obtained Ph.D in Physics of the Universe from AstroParticle and Cosmology (APC
 After completing PhD, I won an appointment as a postdoctoral associate at Cornell University. <br>
 
 <a href="/cv">Read more about my CV.</a>
+
 
 ---
 # Research
