@@ -4,15 +4,15 @@ layout: default
 
 **Hi there, I am Thuong D. HOANG, a cosmologist and astrophysicist**
 
-_Definition of mine: Big Bang theory, Inflation, Cosmic Microwaves Background, Transision Edge Sensor (TES), Cryogenics system, Magnetic fields and star formation, Dust polarization_
+_Definition about me: Big Bang theory, Inflation, Cosmic Microwaves Background, Transision Edge Sensor (TES), Cryogenics system, Magnetic fields and star formation, Dust polarization_
 
 ---
 # About
 
 I am currently a lecturer/researcher in the Department of Space and Applications (DSA) at University of Science and Technology of Hanoi (USTH) since January 1, 2021. 
 I obtained Ph.D in Physics of the Universe from AstroParticle and Cosmology (APC) laboratory, University of Paris, in 2018. 
-After completing PhD, I won an appointment as a postdoctoral associate at Cornell University. <br>
-
+After completing PhD, I won an appointment as a postdoctoral associate at Cornell University.
+![Branching](/images/IMG_7931.jpg)
 <a href="/cv">Read more about my CV.</a>
 
 ---
@@ -22,10 +22,11 @@ My research interests span both observational cosmology on `Cosmic Microwave Bac
 
 Most of my work has been working on the simulation of systematic effects of CMB polarization measurement and instrumentation on superconducting `Transition Edge Sensor (TES)` for CMB experiments. <br>
 
-On the other hand, I am also investigating data analysis of magnetic fields in molecular clouds to study the evolution and formation of stars. <br>
+On the other hand, I am also investigating data analysis of `magnetic fields` in molecular clouds to study the evolution and formation of stars. <br>
 		
-I has published over 13 scientific journals publications and 8 conference proceeding papers for approval.<br>
+I has published scientific journals publications and 8 conference proceeding papers for approval.<br>
 
+<a href="/research">Read more about my Research.</a>
 
 ---
 # Teaching
@@ -33,6 +34,7 @@ I has published over 13 scientific journals publications and 8 conference procee
 * Basic Programming (C) <br>
 * Data Analysis and Visualization (Python) <br>
 * Mordern Cosmology  <br>
+* Practical work: Advanced electronic system
 
 ---
 # Talks
@@ -91,27 +93,6 @@ CMB-S4.
 
 
 ### Large image
-
+Magnetic fields at 353 GHz of dust polarization
 ![Branching](/images/thumbnail.png)
 
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
