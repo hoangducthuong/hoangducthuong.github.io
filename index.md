@@ -93,7 +93,7 @@ CMB-S4.
 
 ### Large image
 
-![Branching](thumbnail.png)
+![Branching](/image/thumbnail.png)
 
 
 ### Definition lists can be used with HTML syntax.
