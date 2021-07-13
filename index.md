@@ -2,11 +2,9 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+**Hi there, I am Thuong D. HOANG, a cosmologist and astrophysicist**
 
-[Link to another page](./another-page.html).
-
-Hi there, I am Thuong D. HOANG
+_Definition of mine: Cosmic Microwaves Background, Transision Edge Sensor (TSE), Inflation, Magnetic fields, Dust polarization_
 
 ---
 # About
