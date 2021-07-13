@@ -1,3 +1,5 @@
 name: Hoang Duc Thuong
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+theme: jekyll-theme-slate
