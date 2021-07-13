@@ -9,7 +9,8 @@ _Definition about me: Cosmic Microwaves Background, Transision Edge Sensor (TSE)
 
 I am currently a lecturer/researcher in the Department of Space and Applications (DSA) at University of Science and Technology of Hanoi (USTH) since January 1, 2021. 
 I obtained Ph.D in Physics of the Universe from AstroParticle and Cosmology (APC) laboratory, University of Paris, in 2018. 
-After completing PhD, I won an appointment as a postdoctoral associate at Cornell University. <br>
+After completing PhD, I won an appointment as a postdoctoral associate at Cornell University.
+![Branching](/images/IMG_7931.jpg)
 
 <a href="/cv">Read more about my CV.</a>
 
