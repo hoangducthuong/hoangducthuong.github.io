@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Thuong Hoang research
+description: My research activities
 ---
 
 **Hi there, I am Thuong D. HOANG, a cosmologist and astrophysicist**
