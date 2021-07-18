@@ -36,16 +36,20 @@ QUBIC: Testbed TES array
 ```
 
 
+
 ```
 CMB-S4: Survey strategy
 ```
 
+![](/images/lat_hist_highcadence_year_cosecant_145_nside64_horizontal_el40_az20160_38det_fov8.png)
+I contribute to the CMB-S4 survey strategy study. The detail study of CMB-S4 Large Aperture Tescope (LAT) at Chile is written in CMB-S4 website
+[Modulate scan high cadence LAT](https://cmb-s4.uchicago.edu/wiki/index.php/Modulated_scan_high_cadence_LAT)
 
 ---
 # Publications
+[Publication list in Google scholar](https://scholar.google.com/citations?hl=en&user=X6_u9x0AAAAJ)
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+<!-- <iframe src="https://scholar.google.com/citations?user=X6_u9x0AAAAJ&hl=en" title="Google Scholar"></iframe> --> 
 
-[Google scholar](https://scholar.google.com/citations?hl=en&user=X6_u9x0AAAAJ)
+
+

@@ -73,7 +73,7 @@ Cosmic Microwave Background polarization [ [pdf](http://theses.md.univ-paris-did
 
 ---
 # Photo gallery
-<!--[Branching](/images/thumbnail.png) -->
+<!--[Image](/images/thumbnail.png) -->
 
 ![](thumbnail.png)
 
