@@ -9,7 +9,8 @@ description: My research activities
 _Definition of mine: Big Bang theory, Inflation, Cosmic Microwaves Background, Transision Edge Sensor (TES), Cryogenics system, Magnetic fields and star formation, Dust polarization_
 
 ---
-# Research
+# Research: Simulation, Data analysis, and Experimental
+I have contributed to several projects as LiteBIRD, QUBIC, SO, CMB-S4, SOFIA.
 
 ```
 SOFIA: Magnetic fields toward M17 cloud 
