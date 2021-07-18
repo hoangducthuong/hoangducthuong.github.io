@@ -70,12 +70,12 @@ Cosmic Microwave Background polarization [ [pdf](http://theses.md.univ-paris-did
 <a href="https://hoangducthuong.github.io/research"> > Read more about my Research.</a>
 
 ---
-### Favarite image gallery
+### Photo gallery
 Magnetic fields at 353 GHz of dust polarization
 <!--[Branching](/images/thumbnail.png) -->
 
 ![](thumbnail.png)
 
-[[Photo Gallery](gallery.html)]
+[[My favorist photo Gallery](gallery.html)], related Planck results, photos can be found in [Planck gallery](https://www.cosmos.esa.int/web/planck/picture-gallery)
 
 
