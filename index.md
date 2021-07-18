@@ -72,5 +72,19 @@ Cosmic Microwave Background polarization [ [pdf](http://theses.md.univ-paris-did
 ---
 ### Favarite image gallery
 Magnetic fields at 353 GHz of dust polarization
-![Branching](/images/thumbnail.png)
+<!--[Branching](/images/thumbnail.png) -->
+
+<div class="gallery gallery-cols-3">
+    <figure>
+        <img src="/images/thumbnail.png" alt="Image 1">
+        <figcaption>Image 1</figcaption>
+    </figure>
+    <figure>
+        <img src="/images/thumbnail.png" alt="Image 2">
+        <figcaption>Image 2</figcaption></a>
+    </figure>
+    <figure>
+        <img src="/images/thumbnail.png" alt="Image 3">
+    </figure>
+</div>
 
