@@ -13,7 +13,7 @@ _Definition of mine: Big Bang theory, Inflation, Cosmic Microwaves Background, T
 ```
 SOFIA: Magnetic fields toward M17 cloud 
 ```
-<img src="/images/M17_GLM_Spitzer_cube_arcsinh.png" alt="Italian Trulli" width="100%">
+<img src="/images/M17_GLM_Spitzer_cube_arcsinh.png" alt="M17 Spitzer" width="100%">
 
 
 
@@ -21,7 +21,7 @@ SOFIA: Magnetic fields toward M17 cloud
 Simons Observatory (SO): Testbed focal plane
 ```
 
-
+<img src="/images/IMG_0598.jpeg" alt="Cornell Simons Observatory" width=100%>
 
 
 ```
