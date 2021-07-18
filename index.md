@@ -13,9 +13,8 @@ I am currently a lecturer/researcher in the Department of Space and Applications
 I obtained Ph.D in Physics of the Universe from AstroParticle and Cosmology (APC) laboratory, University of Paris, in 2018. 
 After completing PhD, I won an appointment as a postdoctoral associate at Cornell University.
 <img src="/images/IMG_7931.jpg" alt="Italian Trulli" width="100%">
-
-<!-- [Branching](/images/IMG_7931.jpg) -->
-<a href="/cv"> > Read more about my CV.</a>
+<!-- [Branching](https://hoangducthuong.github.io/images/IMG_7931.jpg) -->
+<a href="https://hoangducthuong.github.io/cv"> > Read more about my CV.</a>
 
 ---
 # Research
@@ -28,7 +27,7 @@ On the other hand, I am also investigating data analysis of `magnetic fields` in
 		
 I has published scientific journals and conference proceeding papers.<br>
 
-<a href="/research"> > Read more about my Research.</a>
+<a href="https://hoangducthuong.github.io/research"> > Read more about my Research.</a>
 
 ---
 # Teaching
@@ -55,7 +54,7 @@ I has published scientific journals and conference proceeding papers.<br>
 [Google Scholar (2021) h-index = 8](https://scholar.google.com/citations?hl=en&user=X6_u9x0AAAAJ)
 
 ---
-# Ph.D manuscript
+# Ph.D manuscript (2018)
 
 Optimization of future projects for the measurement of
 Cosmic Microwave Background polarization [ [pdf](http://theses.md.univ-paris-diderot.fr/HOANG_Duc_Thuong_1_Complete_20181217.pdf) ]
@@ -68,7 +67,7 @@ Cosmic Microwave Background polarization [ [pdf](http://theses.md.univ-paris-did
 * VI: Conclusion and perspectives
 * Appendix A, B, C: Solution of Einstein equations, $\chi^2$ and fir $C_\ell$, fitted glitches 
 
-<a href="/research"> > Read more about my Research.</a>
+<a href="https://hoangducthuong.github.io/research"> > Read more about my Research.</a>
 
 ---
 ### Favarite image gallery
