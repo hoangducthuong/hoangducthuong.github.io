@@ -47,16 +47,18 @@ I has published scientific journals and conference proceeding papers.<br>
 ---
 # Selected publications
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-[Google Scholar (2021) h-index = 8](https://scholar.google.com/citations?hl=en&user=X6_u9x0AAAAJ)
+1.  Thuong Duc Hoang, _Studying magnetic fields toward M17 using polarized thermal dust emission observed bySOFIA/HAWC+_. [In preparation]()
+2.  Duc Thuong Hoang, Guillaume Patanchon, Martin Bucher, Tomotake Matsumura, Ranajoy Banerji, Hirokazu Ishino, Masashi Hazumi, and Jacques Delabrouille, _Bandpass mismatch error for satellite CMB experiments I: estimating the spurious signal_. [arXiv:1706.09486](https://arxiv.org/abs/1706.09486)
+3. Ranajoy Banerji, Guillaume Patanchon, Jacques Delabrouille, Masashi Hazumi, Duc Thuong Hoang, Hirokazu Ishino, Tomotake Matsumura, _Bandpass mismatch error for satellite CMB experiments II: correcting for the spurious signal_. [arXiv:1902.00569](https://arxiv.org/abs/1902.00569)
+4.  Eve M Vavagiakis, ... Duc-Thuong Hoang, ... et al., _The simons observatory: Magnetic sensitivity measurements of microwave squid multiplexers_. [arXiv:2012.04532](https://arxiv.org/abs/2012.04532)
+5. M Salatino, B Bélier, C Chapron, DT Hoang, S Maestre, ..., et al., _Performance of NbSi transition-edge sensors readout with a 128 MUX factor for the QUBIC experiment_. [https://doi.org/10.1117/12.2312080](https://doi.org/10.1117/12.2312080)
+...
+[Publications in google Scholar](https://scholar.google.com/citations?hl=en&user=X6_u9x0AAAAJ)
 
 ---
 # Ph.D manuscript (2018)
 
-Optimization of future projects for the measurement of
+Title: Optimization of future projects for the measurement of
 Cosmic Microwave Background polarization [ [pdf](http://theses.md.univ-paris-diderot.fr/HOANG_Duc_Thuong_1_Complete_20181217.pdf) ]
 
 * I: Introduction of the thesis
@@ -70,8 +72,7 @@ Cosmic Microwave Background polarization [ [pdf](http://theses.md.univ-paris-did
 <a href="https://hoangducthuong.github.io/research"> > Read more about my Research.</a>
 
 ---
-### Photo gallery
-Magnetic fields at 353 GHz of dust polarization
+# Photo gallery
 <!--[Branching](/images/thumbnail.png) -->
 
 ![](thumbnail.png)
