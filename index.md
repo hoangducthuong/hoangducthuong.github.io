@@ -25,8 +25,7 @@ Most of my work has been working on the simulation of systematic effects of CMB 
 
 On the other hand, I am also investigating data analysis of `magnetic fields` in molecular clouds to study the evolution and formation of stars. <br>
 		
-I has published scientific journals and conference proceeding papers.<br>
-
+I have published scientific journals and conference proceeding papers.
 <a href="https://hoangducthuong.github.io/research"> > Read more about my Research.</a>
 
 ---
