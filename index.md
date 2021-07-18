@@ -47,11 +47,11 @@ I has published scientific journals and conference proceeding papers.<br>
 ---
 # Selected publications
 
-1.  Thuong Duc Hoang, Nguyen Bich Ngoc, Pham Ngoc Diep, Thiem Hoang, Le Ngoc Tram, Hien Thanh Phan, Dieu Duc Nguyen, Phuong Thi Nguyen, Chau Giang, Bao Truong Nguyen, Dat Phuc Nguyen, Tuan Van Bui _Studying magnetic fields toward M17 using polarized thermal dust emission observed bySOFIA/HAWC+_. [In preparation]()
-2.  Duc Thuong Hoang, Guillaume Patanchon, Martin Bucher, Tomotake Matsumura, Ranajoy Banerji, Hirokazu Ishino, Masashi Hazumi, and Jacques Delabrouille, _Bandpass mismatch error for satellite CMB experiments I: estimating the spurious signal_. [arXiv:1706.09486](https://arxiv.org/abs/1706.09486)
-3. Ranajoy Banerji, Guillaume Patanchon, Jacques Delabrouille, Masashi Hazumi, Duc Thuong Hoang, Hirokazu Ishino, Tomotake Matsumura, _Bandpass mismatch error for satellite CMB experiments II: correcting for the spurious signal_. [arXiv:1902.00569](https://arxiv.org/abs/1902.00569)
-4.  Eve M Vavagiakis, ... Duc-Thuong Hoang, ... et al., _The simons observatory: Magnetic sensitivity measurements of microwave squid multiplexers_. [arXiv:2012.04532](https://arxiv.org/abs/2012.04532)
-5. M Salatino, B Bélier, C Chapron, DT Hoang, S Maestre, ..., et al., _Performance of NbSi transition-edge sensors readout with a 128 MUX factor for the QUBIC experiment_. [https://doi.org/10.1117/12.2312080](https://doi.org/10.1117/12.2312080)
+1.  **Thuong Duc Hoang**, Nguyen Bich Ngoc, Pham Ngoc Diep, Thiem Hoang, Le Ngoc Tram, Hien Thanh Phan, Dieu Duc Nguyen, Phuong Thi Nguyen, Chau Giang, Bao Truong Nguyen, Dat Phuc Nguyen, Tuan Van Bui _Studying magnetic fields toward M17 using polarized thermal dust emission observed bySOFIA/HAWC+_. [In preparation]()
+2.  **Duc Thuong Hoang**, Guillaume Patanchon, Martin Bucher, Tomotake Matsumura, Ranajoy Banerji, Hirokazu Ishino, Masashi Hazumi, and Jacques Delabrouille, _Bandpass mismatch error for satellite CMB experiments I: estimating the spurious signal_. [arXiv:1706.09486](https://arxiv.org/abs/1706.09486)
+3. Ranajoy Banerji, Guillaume Patanchon, Jacques Delabrouille, Masashi Hazumi, **Duc Thuong Hoang**, Hirokazu Ishino, Tomotake Matsumura, _Bandpass mismatch error for satellite CMB experiments II: correcting for the spurious signal_. [arXiv:1902.00569](https://arxiv.org/abs/1902.00569)
+4.  Eve M Vavagiakis, ... **Duc-Thuong Hoang**, ... et al., _The simons observatory: Magnetic sensitivity measurements of microwave squid multiplexers_. [arXiv:2012.04532](https://arxiv.org/abs/2012.04532)
+5. M Salatino, B Bélier, C Chapron, **DT Hoang**, S Maestre, ..., et al., _Performance of NbSi transition-edge sensors readout with a 128 MUX factor for the QUBIC experiment_. [https://doi.org/10.1117/12.2312080](https://doi.org/10.1117/12.2312080)
 ...
 [Publications in google Scholar](https://scholar.google.com/citations?hl=en&user=X6_u9x0AAAAJ)
 
