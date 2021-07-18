@@ -21,8 +21,7 @@ SOFIA: Magnetic fields toward M17 cloud
 ```
 Simons Observatory (SO): Testbed focal plane
 ```
-
-<img src="/images/IMG_0598.png" alt="Cornell Simons Observatory" width=100%>
+<img src="/images/IMG_0598.png" alt="Cornell cryostar for Simons Observatory" width="100%">
 
 
 ```
