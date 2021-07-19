@@ -39,21 +39,22 @@ I have published scientific journals and conference proceeding papers.
 ---
 # Talks
 
-*   Studying magnetic fields toward M17 cloud using dust polarization taken with SOFIA/HAWC+, Magnetic Fields and the Structure of the Filamentary Interstellar Medium (22- 25 June 2021), SOFIA Science series, [<a href="https://www.youtube.com/watch?v=OacVw13wG_4 " target="_blank"> pre-recored talk </a>], [<a href="https://hoangducthuong.github.io/slides/A_2021_Thuong_HOANG_full_slides.pdf" target="_blank"> pdf </a>]
+*   Studying magnetic fields toward M17 cloud using dust polarization taken with SOFIA/HAWC+, Magnetic Fields and the Structure of the Filamentary Interstellar Medium (22- 25 June 2021), SOFIA Science series. [<a href="https://www.youtube.com/watch?v=OacVw13wG_4 " target="_blank"> pre-recored talk </a>], [<a href="https://hoangducthuong.github.io/slides/A_2021_Thuong_HOANG_full_slides.pdf" target="_blank"> pdf </a>]
 *   CMB instrumentation and detectors, <a href="https://euraxess.ec.europa.eu/" target="_blank"> Euraxess </a> Webinar on CMB Inflate "Contributing to the understanding of the origins of the Universe, [<a href="https://hoangducthuong.github.io/slides/CMB_INFLATE_HDT.pdf" target="_blank"> pdf </a>]
-*   The Simons Observatory and future ground-based CMB measurements, Rencontres du Vietnam, Cosmology (August 019 - Qui Nhon, Vietnam). <a href="http://vietnam.in2p3.fr/2019/Cosmology/transparencies/4_thursday/1_morning/2_hoang.pdf" target="_blank"> pdf </a>]
+*   The Simons Observatory and future ground-based CMB measurements, Rencontres du Vietnam, Cosmology (August 019 - Qui Nhon, Vietnam). [<a href="http://vietnam.in2p3.fr/2019/Cosmology/transparencies/4_thursday/1_morning/2_hoang.pdf" target="_blank"> pdf </a>]
 *   Optimization of the next generation of CMB missions, XIII School of Csomology: The CMB from A to Z, ( November 12 - 18, 2017 — IESC, Cargèse). [<a href="http://www.cpt.univ-mrs.fr/~cosmo/EC2017/Presentations/Seminaires/Hoang.pdf" target="_blank"> pdf </a>]  <br>
 
 ---
 # Select publications
 
-1.  **Thuong Duc Hoang**, Nguyen Bich Ngoc, Pham Ngoc Diep, Thiem Hoang, Le Ngoc Tram, Hien Thanh Phan, Dieu Duc Nguyen, Phuong Thi Nguyen, Chau Giang, Bao Truong Nguyen, Dat Phuc Nguyen, Tuan Van Bui _Studying magnetic fields toward M17 using polarized thermal dust emission observed bySOFIA/HAWC+_. [In preparation]()
-2.  **Duc Thuong Hoang**, Guillaume Patanchon, Martin Bucher, Tomotake Matsumura, Ranajoy Banerji, Hirokazu Ishino, Masashi Hazumi, and Jacques Delabrouille, _Bandpass mismatch error for satellite CMB experiments I: estimating the spurious signal_. <a href="https://arxiv.org/abs/1706.09486" target="_blank">arXiv:1706.09486 </a>.
-3. Ranajoy Banerji, Guillaume Patanchon, Jacques Delabrouille, Masashi Hazumi, **Duc Thuong Hoang**, Hirokazu Ishino, Tomotake Matsumura, _Bandpass mismatch error for satellite CMB experiments II: correcting for the spurious signal_. [arXiv:1902.00569](https://arxiv.org/abs/1902.00569)
-4.  Eve M Vavagiakis, ... **Duc-Thuong Hoang**, ... et al., _The simons observatory: Magnetic sensitivity measurements of microwave squid multiplexers_. [arXiv:2012.04532](https://arxiv.org/abs/2012.04532)
-5. M Salatino, B Bélier, C Chapron, **DT Hoang**, S Maestre, ..., et al., _Performance of NbSi transition-edge sensors readout with a 128 MUX factor for the QUBIC experiment_. [https://doi.org/10.1117/12.2312080](https://doi.org/10.1117/12.2312080)
+1.  **Thuong Duc Hoang**, Nguyen Bich Ngoc, Pham Ngoc Diep, Thiem Hoang, Le Ngoc Tram, Hien Thanh Phan, Dieu Duc Nguyen, Phuong Thi Nguyen, Chau Giang, Bao Truong Nguyen, Dat Phuc Nguyen, Tuan Van Bui _Studying magnetic fields toward M17 using polarized thermal dust emission observed bySOFIA/HAWC+_. <a href="" target="_blank"> In preparation </a>
+2.  **Duc Thuong Hoang**, Guillaume Patanchon, Martin Bucher, Tomotake Matsumura, Ranajoy Banerji, Hirokazu Ishino, Masashi Hazumi, and Jacques Delabrouille, _Bandpass mismatch error for satellite CMB experiments I: estimating the spurious signal_. <a href="https://arxiv.org/abs/1706.09486" target="_blank"> arXiv:1706.09486 </a>.
+3. Ranajoy Banerji, Guillaume Patanchon, Jacques Delabrouille, Masashi Hazumi, **Duc Thuong Hoang**, Hirokazu Ishino, Tomotake Matsumura, _Bandpass mismatch error for satellite CMB experiments II: correcting for the spurious signal_. <a href="https://arxiv.org/abs/1902.00569" target="_blank"> arXiv:1902.00569 </a>
+4.  Eve M Vavagiakis, ... **Duc-Thuong Hoang**, ... et al., _The simons observatory: Magnetic sensitivity measurements of microwave squid multiplexers_. <a href="https://arxiv.org/abs/2012.04532" target="_blank"> arXiv:2012.04532 </a>
+5. M Salatino, B Bélier, C Chapron, **DT Hoang**, S Maestre, ..., et al., _Performance of NbSi transition-edge sensors readout with a 128 MUX factor for the QUBIC experiment_. <a href="https://doi.org/10.1117/12.2312080" target="_blank"> https://doi.org/10.1117/12.2312080 </a>
 ...
 6. <a href="https://scholar.google.com/citations?hl=en&user=X6_u9x0AAAAJ" target="_blank"> Publications in google Scholar </a>
+
 
 ---
 # Ph.D manuscript (2018)
@@ -67,13 +68,14 @@ Cosmic Microwave Background polarization [ <a href="http://theses.md.univ-paris-
 * IV: Bandpass mismatch systematic for CMB satellite as  <a href="http://litebird.jp/eng/" target="_blank">LiteBIRD</a>
 * V: Interaction of particles with superconducting Transition-Edge Sensor (TES): <a href="http://qubic.in2p3.fr/wordpress/" target="_blank">ground-based QUBIC</a>
 * VI: Conclusion and perspectives
-* Appendix A, B, C: Solution of Einstein equations, $\chi^2$ and fir $C_\ell$, fitted glitches 
+* Appendix A, B, C: Solution of Einstein equations, <img src="https://latex.codecogs.com/svg.latex?\Large&space;\chi^2" title="\chi^2" /> and fit <img src="https://latex.codecogs.com/svg.latex?\Large&space;C_\ell" title="C_\ell" />, fitted glitches 
+
 
 <a href="https://hoangducthuong.github.io/research" target="_blank"> > Read more about my Research.</a>
 
 
 ---
-# Photo gallery
+# Image gallery
 <!--[Image](/images/thumbnail.png) -->
 
 <a href="https://hoangducthuong.github.io/gallery.html" target="_blank">My favorist photo Gallery  </a>, related Planck results, photos can be found in <a href="https://www.cosmos.esa.int/web/planck/picture-gallery" target="_blank"> Planck gallery </a>
