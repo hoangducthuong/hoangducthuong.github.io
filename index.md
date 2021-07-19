@@ -52,13 +52,14 @@ I have published scientific journals and conference proceeding papers.
 4.  Eve M Vavagiakis, ... **Duc-Thuong Hoang**, ... et al., _The simons observatory: Magnetic sensitivity measurements of microwave squid multiplexers_. [arXiv:2012.04532](https://arxiv.org/abs/2012.04532)
 5. M Salatino, B Bélier, C Chapron, **DT Hoang**, S Maestre, ..., et al., _Performance of NbSi transition-edge sensors readout with a 128 MUX factor for the QUBIC experiment_. [https://doi.org/10.1117/12.2312080](https://doi.org/10.1117/12.2312080)
 ...
-[Publications in google Scholar](https://scholar.google.com/citations?hl=en&user=X6_u9x0AAAAJ)
+6. [Publications in google Scholar](https://scholar.google.com/citations?hl=en&user=X6_u9x0AAAAJ)
 
 ---
 # Ph.D manuscript (2018)
 
 Title: Optimization of future projects for the measurement of
-Cosmic Microwave Background polarization [ [pdf](http://theses.md.univ-paris-diderot.fr/HOANG_Duc_Thuong_1_Complete_20181217.pdf) ]
+Cosmic Microwave Background polarization [ <a href="http://theses.md.univ-paris-diderot.fr/HOANG_Duc_Thuong_1_Complete_20181217.pdf"> Manuscript </a> ], [ <a href="https://hoangducthuong.github.io/slides/HDT_thesis_presentation_official.pdf"> Presentation </a> ]
+
 
 * I: Introduction of the thesis
 * II: Introduction to cosmology
@@ -73,8 +74,6 @@ Cosmic Microwave Background polarization [ [pdf](http://theses.md.univ-paris-did
 ---
 # Photo gallery
 <!--[Image](/images/thumbnail.png) -->
-
-![](thumbnail.png)
 
 [[My favorist photo Gallery](gallery.html)], related Planck results, photos can be found in [Planck gallery](https://www.cosmos.esa.int/web/planck/picture-gallery)
 

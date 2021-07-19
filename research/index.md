@@ -13,22 +13,23 @@ _Definition of mine: Big Bang theory, Inflation, Cosmic Microwaves Background, T
 I have contributed to several projects as LiteBIRD, QUBIC, SO, CMB-S4, SOFIA.
 
 ```
-SOFIA: Magnetic fields toward M17 cloud 
+SOFIA: Magnetic fields toward M17 cloud.
 ```
 <img src="/images/M17_GLM_Spitzer_cube_arcsinh.png" alt="M17 Spitzer" width="100%">
 
 
 
 ```
-Simons Observatory (SO): Testbed focal plane
+Simons Observatory (SO): Testbed focal plane.
 ```
 <img src="/images/IMG_0598.png" alt="Cornell cryostar for Simons Observatory" width="100%">
+Testbed focal plane of thousands Transistion Edge Sensors and readout system
 
 
 ```
 LiteBIRD: Systematics effect
 ```
-
+<img src="/images/LiteBIRD.jpg" alt="LiteBIRD satellite" width="100%">
 
 
 ```
@@ -36,14 +37,23 @@ QUBIC: Testbed TES array
 ```
 
 
+<img src="/images/QUBIC_TESarray.jpg" alt="Cornell cryostar for Simons Observatory" width="100%">
+
 
 ```
-CMB-S4: Survey strategy
+CMB-S4: Survey strategy at Atacama-Chile
 ```
+<img src="/images/lat_hist_highcadence_year_cosecant_145_nside64_horizontal_el40_az20160_38det_fov8.png" alt="Cornell cryostar for Simons Observatory" width="100%">
 
-![](/images/lat_hist_highcadence_year_cosecant_145_nside64_horizontal_el40_az20160_38det_fov8.png)
 I contribute to the CMB-S4 survey strategy study. The detail study of CMB-S4 Large Aperture Tescope (LAT) at Chile is written in CMB-S4 website
 [Modulate scan high cadence LAT](https://cmb-s4.uchicago.edu/wiki/index.php/Modulated_scan_high_cadence_LAT)
+
+
+```
+Planck-HFI: Cosmic Rays
+```
+<img src="/images/cumul_compare_week.png" alt="Planck HFI" width="100%">
+
 
 ---
 # Publications
