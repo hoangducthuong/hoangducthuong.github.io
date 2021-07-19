@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Thuong Hoang research
-description: My research activities
+description: My research activities in simulation, data analysis, and instrumentation
 ---
 
 **Hi there, I am Thuong D. HOANG, a cosmologist and astrophysicist**
@@ -9,7 +9,7 @@ description: My research activities
 _Definition of mine: Big Bang theory, Inflation, Cosmic Microwaves Background, Transision Edge Sensor (TES), Cryogenics system, Magnetic fields and star formation, Dust polarization_
 
 ---
-# Research: Simulation, Data analysis, and Experimental
+# Research: Simulation, Data analysis, and Instrumentation
 I have contributed to several projects as LiteBIRD, QUBIC, SO, CMB-S4, SOFIA, Planck
 
 
