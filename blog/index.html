@@ -29,52 +29,84 @@ description: A scientific blog is coming
   <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
-  <h3> How to make an RGB image using aplpy package </h3>
-  <pre><code class="python">def fib(n):
-  a, b = 0, 1
-    while a < n:
-      print(a, end=' ')
-      a, b = b, a+b
-      print()
-  fib(1000)</code></pre>
-</body>
+  <h3> How to make an RGB image using <a href="https://aplpy.readthedocs.io/en/stable/"> aplpy</a> package </h3>
+  This is an example of making a RGB image using aplpy package. The data is archived from the Spitzer Galactic Legacy Infrared Midplane Survey Extraordinaire (<a href="https://irsa.ipac.caltech.edu/data/SPITZER/GLIMPSE/" target="_blank">GLIMPSE</a>).
+  We will choose 3 over 4 channels data to generate an RGB optical-liked image of M17 region (Omega Nebula/Swan Nebula/Horseshoe Nebula)
+  
+  <h4>1. Read the data </h4>
+  <pre>
+    <code class="python">
+    import aplpy
+    import matplotlib.pyplot as plt
+    from pylab import arange, show, cm
+    cmap='rainbow'
 
-<head>
-  <meta charset="utf-8">
-  <title>CodeMirror Read-only Highlighting Example</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.61.0/lib/codemirror.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/codemirror@5.61.0/lib/codemirror.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/codemirror@5.61.0/mode/python/python.min.js"></script>
-</head>
+    # Galactic Legacy Infrared Midplane Survey Extraordinaire (GLIMPSE)
+    fname1 = '/GLM_01550-0075_mosaic_I1.fits'   # chanel 1: 3.6 \mu m
+    fname2 = '/GLM_01550-0075_mosaic_I2.fits'   # chanel 2: 4.5 \mu m
+    fname3 = '/GLM_01550-0075_mosaic_I3.fits'   # chanel 3: 6 \mu m
+    fname4 = '/GLM_01550-0075_mosaic_I4.fits'   # chanel 4: 8 \mu m
+    </code>
+  </pre>
 
-<body>
-  <h3> How to make an RGB image using aplpy package </h3>
-  <pre><code id="python_code">def func(A):
-  result = 0
-  n = len(A)
-  while n > 1:
-      n = n/2
-      result = result + min(A[1,...,n])
-  return result</code></pre>
-  <script type="text/javascript">
-      window.onload = function(){
-          var codeElement = document.getElementById('python_code');
-          var code = codeElement.innerText;
-        
-          codeElement.innerHTML = "";
-        
-          var codeMirror = CodeMirror(
-            codeElement,
-            {
-              value: code,
-              mode: "python",
-              theme: "default",
-              lineNumbers: false,
-              readOnly: true
-            }
-          );
-      };
-  </script>
+  <h4>2. Make a cube data from 3 input files </h4>
+  <pre>
+    <code class="python">
+    # Make RGB cube (3 dimensional data); This will have ouput file: M17_GLM_Spitzer_cube_data_2d.fits
+    aplpy.make_rgb_cube([fname4, fname2, fname1],'M17_GLM_Spitzer_cube_data.fits')
+    </code>
+  </pre>
+
+  <h4>3. Make RGB image </h4>
+  <pre>
+    <code class="python">
+      # Make RGB image - you can specify color parameters here!
+      aplpy.make_rgb_image('M17_GLM_Spitzer_cube_data.fits','M17_GLM_Spitzer_cube_data.png', make_nans_transparent=True) #, stretch_r='arcsinh', stretch_g='arcsinh', stretch_b='arcsinh')
+      
+      # Customize parameters
+      aplpy.make_rgb_image('M17_GLM_Spitzer_cube_data.fits','M17_GLM_Spitzer_cube_data.png',
+                            stretch_r='arcsinh', vmid_r=0.01, stretch_g='arcsinh', vmid_g=0.06,
+                            stretch_b='arcsinh', vmid_b=0.06, make_nans_transparent=True)
+    </code>
+  </pre>
+
+  <h4>4. Plot and save the RGB image </h4>
+  <pre>
+    <code class="python">
+      fig = plt.figure(figsize=(16, 12) )
+
+      f = aplpy.FITSFigure('/Users/Astrophysics/VARNet/M17_GLM_Spitzer_cube_data_2d.fits',figure=fig)
+      
+      # Apply grayscale mapping of image
+      #f.show_grayscale()
+      #f.show_colorscale(cmap='rainbow')
+      
+      f.show_rgb('M17_GLM_Spitzer_cube_data.png')
+      
+      #f.tick_labels.set_font(size='xx-small')
+      #f.axis_labels.set_font(size='x-small')
+      f.ticks.hide()
+      f.tick_labels.hide()
+      f.axis_labels.hide()
+      
+      #f.axis_labels.show()
+      #f.tick_labels.show()
+      #f.tick_labels.show_x()
+      #f.ticks.show()
+      #f.ticks.show_x()
+      f.frame.set_color('white')
+      
+      #f.axis_labels.set_xtext('Right Ascension [J2000]')
+      #f.axis_labels.set_ytext('Declination [J2000]')
+      
+      plt.savefig('M17_spitzer_GLM_data.pdf', bbox_inches='tight')
+      plt.savefig('M17_spitzer_GLM_data.png', dpi=800, bbox_inches='tight')      
+    </code>
+  </pre>
+  <h4>The output of the script</h4>
+<img src="/images/M17_spitzer_GLM_data_web.jpg" width="100%">
+
+  
 </body>
 
 
