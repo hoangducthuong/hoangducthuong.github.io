@@ -56,6 +56,9 @@ I contribute to the CMB-S4 survey strategy study. The detail study of CMB-S4 Lar
 <img src="/images/cumul_compare_week.png" alt="Planck HFI" width="100%">
 
 
+Master thesis [<a src="/slides/master_thesis.pdf" target="_blank"> pdf </a> ]
+
+
 ---
 # Publications
 [Publication list in Google scholar](https://scholar.google.com/citations?hl=en&user=X6_u9x0AAAAJ)
