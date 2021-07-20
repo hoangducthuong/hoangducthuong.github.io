@@ -18,10 +18,14 @@ I have contributed to several projects as LiteBIRD, QUBIC, SO, CMB-S4, SOFIA, Pl
 ```
 <img src="/images/M17_GLM_Spitzer_cube_arcsinh.png" alt="M17 Spitzer" width="100%">
 
+Star formation is a complex process, which is affected by self-gravity, turbulence, and magnetic fields (B-fields). Understanding the exact role of magnetic fields in the evolution of dense clouds and star  formation processes is a challenge in modern astrophysics. Dust polarization induced by aligned grains is a popular technique to study b-fields. The strength of B-fields can be estimated using the Davis-Chandrasekhar-Fermi (DCF) method via thermal dust polarization.
 
+This study reports the measurement of the component of magnetic fields in the plane-of-sky of the M17 region (Figure above) using the thermal dust polarization taken with SOFIA/HAWC+ at 154 μm wavelength. Using the DCF method, we found the presence of strong magnetic fields of the order of 327±34 μG and 839±80 μG in lower- and higher-density regions, respectively. We also calculate the gravitational mass-to-magnetic flux ratio, and address the relative contribution of B-fields and turbulence in M17 region. In addition, we investigate the dust grain alignment in this region using the radiative torque paradigm.
+
+ The study is published in [<a href="" target="_blank"> In preparation </a>]
 
 ```
-5. Simons Observatory (SO): Testbed focal plane.
+1. Simons Observatory (SO): Testbed focal plane.
 ```
 <img src="/images/IMG_0598.png" alt="Cornell cryostar for Simons Observatory" width="100%">
 Testbed focal plane of thousands Transistion Edge Sensors and readout system
