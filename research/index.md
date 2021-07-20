@@ -6,15 +6,33 @@ description: My research activities in simulation, data analysis, and instrument
 
 **Hi there, I am Thuong D. HOANG, a cosmologist and astrophysicist**
 
-_Definition of mine: Big Bang theory, Inflation, Cosmic Microwaves Background, Transision Edge Sensor (TES), Cryogenics system, Magnetic fields and star formation, Dust polarization_
+_Definition of me: Big Bang theory, Inflation, Cosmic Microwaves Background, Transision Edge Sensor (TES), Cryogenics system, Magnetic fields and star formation, Dust polarization_
 
 ---
-# Research: Simulation, Data analysis, and Instrumentation
-I have contributed to several projects as LiteBIRD, QUBIC, SO, CMB-S4, SOFIA, Planck
+# My research is specialized into Simulation, Data analysis, and Instrumentation
+I have contributed to several Cosmic Microwave Background (CMB) projects such as LiteBIRD, QUBIC, SO, CMB-S4, Planck. The future CMB projects aim to measure polarization sagnal that imprint primordial gravitational waves from the Early Universe of the Big Bang theory.
+
+Recently I am curious in roles magnetic fields and star formation processes.
+<!-- 
+<div> 
+    <li>I started my Master internship with the Cosmic rays topic at AstroParticles and Cosmology (APC) laboratory ar Paris University.
+    </li>
+    <li>My first Ph.D topic is working with LiteBIRD satellite.
+    </li>
+     <li>My second Ph.D topic is working with ground-based experiment QUBIC.
+    </li>
+     <li>My first Postdoc topic is working with ground-based experiment QUBIC.
+    </li>
+     <li>In parallel, my second Postdoc topic is working with ground-based experiment QUBIC.
+    </li>
+    <li>In parallel, my second Postdoc topic is working with ground-based experiment QUBIC.
+    </li>
+</div>
+-->
 
 
 ```
-6. SOFIA: Magnetic fields toward M17 cloud.
+1. SOFIA: Magnetic fields toward M17 cloud.
 ```
 <img src="/images/M17_GLM_Spitzer_cube_arcsinh.png" alt="M17 Spitzer" width="100%">
 
