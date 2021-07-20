@@ -9,7 +9,7 @@ description: My research activities in simulation, data analysis, and instrument
 _Definition of me: Big Bang theory, Inflation, Cosmic Microwaves Background, Transision Edge Sensor (TES), Cryogenics system, Magnetic fields and star formation, Dust polarization_
 
 ---
-# My research is specialized into Simulation, Data analysis, and Instrumentation
+# Research topics are classified into Simulation, Data analysis, and Instrumentation
 I have contributed to several Cosmic Microwave Background (CMB) projects such as LiteBIRD, QUBIC, SO, CMB-S4, Planck. The future CMB projects aim to measure polarization sagnal that imprint primordial gravitational waves from the Early Universe of the Big Bang theory.
 
 Recently I am curious in roles magnetic fields and star formation processes.
@@ -48,13 +48,14 @@ This study reports the measurement of the component of magnetic fields in the pl
 <img src="/images/IMG_0598.png" alt="Cornell cryostar for Simons Observatory" width="100%">
 Testbed focal plane of thousands Transistion Edge Sensors and readout system
 
+The study is published in [<a href="" target="_blank"> In preparation </a>]
 
 ```
 4. LiteBIRD: Systematics effect
 ```
 <img src="/images/LiteBIRD.jpg" alt="LiteBIRD satellite" width="100%">
 
-
+The study is published in [<a href="" target="_blank"> In preparation </a>]
 ```
 3. QUBIC: Testbed TES array
 ```
@@ -62,14 +63,13 @@ Testbed focal plane of thousands Transistion Edge Sensors and readout system
 
 <img src="/images/QUBIC_TESarray.jpg" alt="Cornell cryostar for Simons Observatory" width="100%">
 
-
+The study is published in [<a href="" target="_blank"> In preparation </a>]
 ```
 2. CMB-S4: Survey strategy at Atacama-Chile
 ```
 <img src="/images/lat_hist_highcadence_year_cosecant_145_nside64_horizontal_el40_az20160_38det_fov8.png" alt="Cornell cryostar for Simons Observatory" width="100%">
 
-I contribute to the CMB-S4 survey strategy study. The detail study of CMB-S4 Large Aperture Tescope (LAT) at Chile is written in CMB-S4 website
-[Modulate scan high cadence LAT](https://cmb-s4.uchicago.edu/wiki/index.php/Modulated_scan_high_cadence_LAT)
+I contribute to the CMB-S4 survey strategy study. The detail study of CMB-S4 Large Aperture Tescope (LAT) at Chile is written in CMB-S4 website [ <a href="https://cmb-s4.uchicago.edu/wiki/index.php/Modulated_scan_high_cadence_LAT" target="_blank"> Modulate scan high cadence LAT </a> ].
 
 
 ```
@@ -78,7 +78,7 @@ I contribute to the CMB-S4 survey strategy study. The detail study of CMB-S4 Lar
 <img src="/images/cumul_compare_week.png" alt="Planck HFI" width="100%">
 
 
-Master thesis [<a src="/slides/master_thesis.pdf" target="_blank"> pdf </a> ]
+Master thesis [<a src="/slides/master_thesis.pdf" target="_blank"> pdf </a> ].
 
 
 ---
