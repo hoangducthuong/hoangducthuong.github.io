@@ -43,7 +43,7 @@ I have published scientific journals and conference proceeding papers.
 *   CMB instrumentation and detectors, <a href="https://euraxess.ec.europa.eu/" target="_blank"> Euraxess </a> Webinar on CMB Inflate "Contributing to the understanding of the origins of the Universe, [<a href="https://hoangducthuong.github.io/slides/CMB_INFLATE_HDT.pdf" target="_blank"> pdf </a>]
 *   The Simons Observatory and future ground-based CMB measurements, Rencontres du Vietnam, Cosmology (August 019 - Qui Nhon, Vietnam). [<a href="http://vietnam.in2p3.fr/2019/Cosmology/transparencies/4_thursday/1_morning/2_hoang.pdf" target="_blank"> pdf </a>]
 *   Optimization of the next generation of CMB missions, XIII School of Csomology: The CMB from A to Z, ( November 12 - 18, 2017 — IESC, Cargèse). [<a href="http://www.cpt.univ-mrs.fr/~cosmo/EC2017/Presentations/Seminaires/Hoang.pdf" target="_blank"> pdf </a>]  <br>
-*   My initiative: 1st Meeting of Young Vietnamese Community of Astronomy (YVCA), APC laboratory, Paris Diderot University (21-22 December 2017 Paris-France). Program: <span> <a href="https://space.usth.edu.vn/en/news/news-events/yvca-program-127.html" class="uri">https://space.usth.edu.vn/en/news/news-events/yvca-program-127.html</a> </span></p></li>
+*   My initiative: 1st Meeting of Young Vietnamese Community of Astronomy (YVCA), APC laboratory, Paris Diderot University (21-22 December 2017 Paris-France). Program: <span> <a href="https://space.usth.edu.vn/en/news/news-events/yvca-program-127.html" class="uri" target="_blank"> https://space.usth.edu.vn/en/news/news-events/yvca-program-127.html</a> </span>
 
 ---
 # Select publications
@@ -53,8 +53,9 @@ I have published scientific journals and conference proceeding papers.
 3. Ranajoy Banerji, Guillaume Patanchon, Jacques Delabrouille, Masashi Hazumi, **Duc Thuong Hoang**, Hirokazu Ishino, Tomotake Matsumura, _Bandpass mismatch error for satellite CMB experiments II: correcting for the spurious signal_. <a href="https://arxiv.org/abs/1902.00569" target="_blank"> arXiv:1902.00569 </a>
 4.  Eve M Vavagiakis, ... **Duc-Thuong Hoang**, ... et al., _The simons observatory: Magnetic sensitivity measurements of microwave squid multiplexers_. <a href="https://arxiv.org/abs/2012.04532" target="_blank"> arXiv:2012.04532 </a>
 5. M Salatino, B Bélier, C Chapron, **DT Hoang**, S Maestre, ..., et al., _Performance of NbSi transition-edge sensors readout with a 128 MUX factor for the QUBIC experiment_. <a href="https://doi.org/10.1117/12.2312080" target="_blank"> https://doi.org/10.1117/12.2312080 </a>
+6. M. Piat, G. Stankowiak, E.S. Battistelli, P. de Bernardis, G. D Alessandro, M. De Petris, L. Grandsire, J.-Ch. Hamilton, **T.D. Hoang**, S. Marnieros, ..., et al., _QUBIC IV: Performance of TES Bolometers and Readout Electronics_. [<a href="https://arxiv.org/abs/2101.06787" target="_blank"> arXiv:2101.06787 </a>]
 ...
-6. <a href="https://scholar.google.com/citations?hl=en&user=X6_u9x0AAAAJ" target="_blank"> Publications in google Scholar </a>
+7. <a href="https://scholar.google.com/citations?hl=en&user=X6_u9x0AAAAJ" target="_blank"> Publications in google Scholar </a>
 
 
 ---

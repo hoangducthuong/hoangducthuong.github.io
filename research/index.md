@@ -32,7 +32,7 @@ Recently I am curious in roles magnetic fields and star formation processes.
 --->
 
 ```
-1. SOFIA: Magnetic fields toward M17 cloud.
+6. SOFIA: Magnetic fields toward M17 cloud.
 ```
 <img src="/images/M17_GLM_Spitzer_cube_arcsinh.png" alt="M17 Spitzer" width="100%">
 
@@ -42,20 +42,26 @@ This study reports the measurement of the component of magnetic fields in the pl
 
  The study is published in [<a href="" target="_blank"> In preparation </a>]
 
+
 ```
-1. Simons Observatory (SO): Testbed focal plane.
+5. Simons Observatory (SO): Testbed focal plane.
 ```
 <img src="/images/IMG_0598.jpeg" alt="Cornell cryostar for Simons Observatory" width="100%">
 Testbed focal plane of thousands Transistion Edge Sensors and readout system
 
-The study is published in [<a href="" target="_blank"> In preparation </a>]
+The study is published in [<a href="https://arxiv.org/abs/2012.04532" target="_blank"> arXiv:2012.04532 </a>]
+
+
 
 ```
 4. LiteBIRD: Systematics effect
 ```
 <img src="/images/LiteBIRD_web.jpg" alt="LiteBIRD satellite" width="100%">
 
-The study is published in [<a href="" target="_blank"> In preparation </a>]
+The study is published in JCAP [<a href="https://arxiv.org/abs/1706.09486" target="_blank"> arXiv:1706.09486 </a>]
+
+
+
 ```
 3. QUBIC: Testbed TES array
 ```
@@ -63,7 +69,10 @@ The study is published in [<a href="" target="_blank"> In preparation </a>]
 
 <img src="/images/QUBIC_TESarray_web.jpg" alt="Cornell cryostar for Simons Observatory" width="100%">
 
-The study is published in [<a href="" target="_blank"> In preparation </a>]
+The study is published in [<a href="https://doi.org/10.1117/12.2312080" target="_blank"> https://doi.org/10.1117/12.2312080 </a>], and [<a href="https://arxiv.org/abs/2101.06787" target="_blank"> arXiv:2101.06787 </a>]
+
+
+
 ```
 2. CMB-S4: Survey strategy at Atacama-Chile
 ```
