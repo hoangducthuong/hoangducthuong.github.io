@@ -13,7 +13,7 @@ Currently, I am a lecturer/researcher in the Department of Space and Application
 I obtained Ph.D in Physics of the Universe from AstroParticle and Cosmology (APC) laboratory, University of Paris, in 2018. 
 After completing PhD, I won an appointment as a postdoctoral associate at Cornell University.
 <img src="/images/IMG_7931.jpg" alt="Italian Trulli" width="100%">
-<!-- [Branching](https://hoangducthuong.github.io/images/IMG_7931.jpg) -->
+<!-- [Branching](https://hoangducthuong.github.io/images/IMG_7931_web.jpg) -->
 <a href="https://hoangducthuong.github.io/cv" target="_blank"> > Read more about my CV.</a>
 
 ---

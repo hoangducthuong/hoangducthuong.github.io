@@ -45,7 +45,7 @@ This study reports the measurement of the component of magnetic fields in the pl
 ```
 1. Simons Observatory (SO): Testbed focal plane.
 ```
-<img src="/images/IMG_0598.png" alt="Cornell cryostar for Simons Observatory" width="100%">
+<img src="/images/IMG_0598.jpeg" alt="Cornell cryostar for Simons Observatory" width="100%">
 Testbed focal plane of thousands Transistion Edge Sensors and readout system
 
 The study is published in [<a href="" target="_blank"> In preparation </a>]
@@ -53,7 +53,7 @@ The study is published in [<a href="" target="_blank"> In preparation </a>]
 ```
 4. LiteBIRD: Systematics effect
 ```
-<img src="/images/LiteBIRD.jpg" alt="LiteBIRD satellite" width="100%">
+<img src="/images/LiteBIRD_web.jpg" alt="LiteBIRD satellite" width="100%">
 
 The study is published in [<a href="" target="_blank"> In preparation </a>]
 ```
@@ -61,7 +61,7 @@ The study is published in [<a href="" target="_blank"> In preparation </a>]
 ```
 
 
-<img src="/images/QUBIC_TESarray.jpg" alt="Cornell cryostar for Simons Observatory" width="100%">
+<img src="/images/QUBIC_TESarray_web.jpg" alt="Cornell cryostar for Simons Observatory" width="100%">
 
 The study is published in [<a href="" target="_blank"> In preparation </a>]
 ```
