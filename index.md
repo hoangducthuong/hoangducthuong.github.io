@@ -43,6 +43,7 @@ I have published scientific journals and conference proceeding papers.
 *   CMB instrumentation and detectors, <a href="https://euraxess.ec.europa.eu/" target="_blank"> Euraxess </a> Webinar on CMB Inflate "Contributing to the understanding of the origins of the Universe, [<a href="https://hoangducthuong.github.io/slides/CMB_INFLATE_HDT.pdf" target="_blank"> pdf </a>]
 *   The Simons Observatory and future ground-based CMB measurements, Rencontres du Vietnam, Cosmology (August 019 - Qui Nhon, Vietnam). [<a href="http://vietnam.in2p3.fr/2019/Cosmology/transparencies/4_thursday/1_morning/2_hoang.pdf" target="_blank"> pdf </a>]
 *   Optimization of the next generation of CMB missions, XIII School of Csomology: The CMB from A to Z, ( November 12 - 18, 2017 — IESC, Cargèse). [<a href="http://www.cpt.univ-mrs.fr/~cosmo/EC2017/Presentations/Seminaires/Hoang.pdf" target="_blank"> pdf </a>]  <br>
+*   My initiative: 1st Meeting of Young Vietnamese Community of Astronomy (YVCA), APC laboratory, Paris Diderot University (21-22 December 2017 Paris-France). Program: <span> <a href="https://space.usth.edu.vn/en/news/news-events/yvca-program-127.html" class="uri">https://space.usth.edu.vn/en/news/news-events/yvca-program-127.html</a> </span></p></li>
 
 ---
 # Select publications
