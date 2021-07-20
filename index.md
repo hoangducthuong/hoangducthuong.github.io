@@ -4,7 +4,7 @@ layout: default
 
 **Hi there, I am Thuong D. HOANG, a cosmologist and astrophysicist**
 
-_Definition about me: Big Bang theory, Inflation, Cosmic Microwaves Background, Transision Edge Sensor (TES), Cryogenics system, Magnetic fields and star formation, Dust polarization_
+_Definition of me: Big Bang theory, Inflation, Cosmic Microwaves Background, Transision Edge Sensor (TES), Cryogenics system, Magnetic fields and star formation, Dust polarization_
 
 ---
 # About
