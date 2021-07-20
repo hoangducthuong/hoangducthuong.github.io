@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title of the document</title>
+    <style>
+      body,
+      html {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        overflow: hidden;
+      }
+      .n1 {
+        background-image: url("https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+      }
+      .n2 {
+        background-image: url("https://images.unsplash.com/photo-1556159992-e189f8e50104?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+      }
+      .n3 {
+        background-image: url("https://images.unsplash.com/photo-1511988617509-a57c8a288659?ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80");
+      }
+      .n4 {
+        background-image: url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80");
+      }
+      .n5 {
+        background-image: url("https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+      }
+      input {
+        position: absolute;
+        opacity: 0;
+        margin-top: 90%;
+        cursor: pointer;
+      }
+      label {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border: solid 2px white;
+        border-radius: 999px;
+        background-color: transparent;
+        margin: 95vh 6px 0 6px;
+        z-index: 2;
+        cursor: pointer;
+        transition-duration: .4s;
+      }
+      .slide {
+        position: absolute;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%; 
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transform: translateX(-100%);
+        transition-duration: .4s;
+        opacity: 1;
+      }
+      input:checked + label {
+        background-color: #ffffff;
+      }
+      input:focus + label {
+        box-shadow: 0 0 0 2px #cccccc, 0 0 18px #fffffff;
+      }
+      input:checked ~ .slide {
+        transform: translateX(100%);
+      }
+      input:checked + label + .slide {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="radio" id="trigger1" name="slider" checked autofocus>
+    <label for="trigger1"></label>
+    <div class="slide n1"></div>
+    <input type="radio" id="trigger2" name="slider">
+    <label for="trigger2"></label>
+    <div class="slide n2"></div>
+    <input type="radio" id="trigger3" name="slider">
+    <label for="trigger3"></label>
+    <div class="slide n3"></div>
+    <input type="radio" id="trigger4" name="slider">
+    <label for="trigger4"></label>
+    <div class="slide n4"></div>
+    <input type="radio" id="trigger5" name="slider">
+    <label for="trigger5"></label>
+    <div class="slide n5"></div>
+
+    <h2> Paris</h2>
+
+  </body>
+
+ 
+
+</html>
