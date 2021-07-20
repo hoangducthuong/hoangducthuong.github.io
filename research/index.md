@@ -10,10 +10,11 @@ _Definition of me: Big Bang theory, Inflation, Cosmic Microwaves Background, Tra
 
 ---
 # Research topics are classified into Simulation, Data analysis, and Instrumentation
-I have contributed to several Cosmic Microwave Background (CMB) projects such as LiteBIRD, QUBIC, SO, CMB-S4, Planck. The future CMB projects aim to measure polarization sagnal that imprint primordial gravitational waves from the Early Universe of the Big Bang theory.
+I have contributed to several Cosmic Microwave Background (CMB) projects such as LiteBIRD, QUBIC, SO, CMB-S4, Planck. The future CMB projects aim to measure polarization signal that imprint primordial gravitational waves from the Early Universe of the Big Bang theory.
 
 Recently I am curious in roles magnetic fields and star formation processes.
-<!-- 
+
+<!--- 
 <div> 
     <li>I started my Master internship with the Cosmic rays topic at AstroParticles and Cosmology (APC) laboratory ar Paris University.
     </li>
@@ -28,8 +29,7 @@ Recently I am curious in roles magnetic fields and star formation processes.
     <li>In parallel, my second Postdoc topic is working with ground-based experiment QUBIC.
     </li>
 </div>
--->
-
+--->
 
 ```
 1. SOFIA: Magnetic fields toward M17 cloud.

@@ -22,5 +22,59 @@ description: A scientific blog is coming
 </div>
 -->
 
+<head>
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+  <h3> How to make an RGB image using aplpy package </h3>
+  <pre><code class="python">def fib(n):
+  a, b = 0, 1
+    while a < n:
+      print(a, end=' ')
+      a, b = b, a+b
+      print()
+  fib(1000)</code></pre>
+</body>
 
-<h3> How to make an RGB image using aplpy package </h3>
+<head>
+  <meta charset="utf-8">
+  <title>CodeMirror Read-only Highlighting Example</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.61.0/lib/codemirror.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/codemirror@5.61.0/lib/codemirror.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/codemirror@5.61.0/mode/python/python.min.js"></script>
+</head>
+
+<body>
+  <h3> How to make an RGB image using aplpy package </h3>
+  <pre><code id="python_code">def func(A):
+  result = 0
+  n = len(A)
+  while n > 1:
+      n = n/2
+      result = result + min(A[1,...,n])
+  return result</code></pre>
+  <script type="text/javascript">
+      window.onload = function(){
+          var codeElement = document.getElementById('python_code');
+          var code = codeElement.innerText;
+        
+          codeElement.innerHTML = "";
+        
+          var codeMirror = CodeMirror(
+            codeElement,
+            {
+              value: code,
+              mode: "python",
+              theme: "default",
+              lineNumbers: false,
+              readOnly: true
+            }
+          );
+      };
+  </script>
+</body>
+
+
