@@ -3,15 +3,41 @@ layout: default
 title: Thuong Hoang research
 description: My research activities in simulation, data analysis, and instrumentation
 ---
+<html lang="{{ site.lang | default: "en-US" }}">
 
+</html>
 <head>
-  <title>Bootstrap Example</title>
+  {% if site.google_analytics %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
+{% endif %}
+<meta charset="UTF-8">
+
+{% seo %}
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#157878">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+<!-- Bootstrap example -->
+  <title></title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
+
+<main id="content" class="main-content" role="main">
+  {{ content }}
+
 
 <body>
 
@@ -46,7 +72,7 @@ Recently I am curious in roles magnetic fields and star formation processes.
   <strong> 6. SOFIA: Magnetic fields toward M17 cloud.</strong> <a href="#" class="alert-link"></a>.
 </div>
 
-<img src="/images/M17_GLM_Spitzer_cube_arcsinh.png" alt="M17 Spitzer" width="100%">
+<img src="https://hoangducthuong.github.io/images/M17_GLM_Spitzer_cube_arcsinh.png" alt="M17 Spitzer" width="100%">
 
 Star formation is a complex process, which is affected by self-gravity, turbulence, and magnetic fields (B-fields). Understanding the exact role of magnetic fields in the evolution of dense clouds and star  formation processes is a challenge in modern astrophysics. Dust polarization induced by aligned grains is a popular technique to study b-fields. The strength of B-fields can be estimated using the Davis-Chandrasekhar-Fermi (DCF) method via thermal dust polarization.
 
@@ -60,7 +86,7 @@ This study reports the measurement of the component of magnetic fields in the pl
  </div>
 
 
-<img src="/images/IMG_0598.jpeg" alt="Cornell cryostar for Simons Observatory" width="100%">
+<img src="https://hoangducthuong.github.io/images/IMG_0598.jpeg" alt="Cornell cryostar for Simons Observatory" width="100%">
 Testbed focal plane of thousands Transistion Edge Sensors and readout system
 
 The study is published in [<a href="https://arxiv.org/abs/2012.04532" target="_blank"> arXiv:2012.04532 </a>]
@@ -70,7 +96,7 @@ The study is published in [<a href="https://arxiv.org/abs/2012.04532" target="_b
   <strong>4. LiteBIRD: Systematics effect. </strong> <a href="#" class="alert-link"></a>.
 </div>
 
-<img src="/images/LiteBIRD_web.jpg" alt="LiteBIRD satellite" width="100%">
+<img src="https://hoangducthuong.github.io/images/LiteBIRD_web.jpg" alt="LiteBIRD satellite" width="100%">
 
 The study is published in JCAP [<a href="https://arxiv.org/abs/1706.09486" target="_blank"> arXiv:1706.09486 </a>]
 
@@ -80,7 +106,7 @@ The study is published in JCAP [<a href="https://arxiv.org/abs/1706.09486" targe
 </div>
 
 
-<img src="/images/QUBIC_TESarray_web.jpg" alt="Cornell cryostar for Simons Observatory" width="100%">
+<img src="https://hoangducthuong.github.io/images/QUBIC_TESarray_web.jpg" alt="Cornell cryostar for Simons Observatory" width="100%">
 
 The study is published in [<a href="https://doi.org/10.1117/12.2312080" target="_blank"> https://doi.org/10.1117/12.2312080 </a>], and [<a href="https://arxiv.org/abs/2101.06787" target="_blank"> arXiv:2101.06787 </a>]
 
@@ -89,7 +115,7 @@ The study is published in [<a href="https://doi.org/10.1117/12.2312080" target="
 </div>
 
 
-<img src="/images/lat_hist_highcadence_year_cosecant_145_nside64_horizontal_el40_az20160_38det_fov8.png" alt="Cornell cryostar for Simons Observatory" width="100%">
+<img src="https://hoangducthuong.github.io/images/lat_hist_highcadence_year_cosecant_145_nside64_horizontal_el40_az20160_38det_fov8.png" alt="Cornell cryostar for Simons Observatory" width="100%">
 
 I contribute to the CMB-S4 survey strategy study. The detail study of CMB-S4 Large Aperture Tescope (LAT) at Chile is written in CMB-S4 website [ <a href="https://cmb-s4.uchicago.edu/wiki/index.php/Modulated_scan_high_cadence_LAT" target="_blank"> Modulate scan high cadence LAT </a> ].
 
@@ -98,7 +124,7 @@ I contribute to the CMB-S4 survey strategy study. The detail study of CMB-S4 Lar
 </div>
 
 
-<img src="/images/cumul_compare_week.png" alt="Planck HFI" width="100%">
+<img src="https://hoangducthuong.github.io/images/cumul_compare_week.png" alt="Planck HFI" width="100%">
 
 
 Master thesis [<a src="/slides/master_thesis.pdf" target="_blank"> pdf </a> ].

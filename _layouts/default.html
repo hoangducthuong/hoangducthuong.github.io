@@ -32,7 +32,6 @@
       <img src="{{ page.image | default: site.logo }}" alt="{{ page.title | default: site.title | default: site.github.repository_name }}" class="project-name" />
         -->
 
-
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
@@ -55,6 +54,7 @@
     <main id="content" class="main-content" role="main">
       {{ content }}
 
+    
       <footer class="site-footer">
           <ul>
           <li><a href="mailto:hoang-duc.thuong@usth.edu.vn">email</a></li>
