@@ -20,7 +20,16 @@ description: My research activities in simulation, data analysis, and instrument
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
-
+  <style>
+  figcaption {
+    background-color: white;
+    color: black;
+    font-style: italic;
+    font-size: smaller;
+    padding: 2px;
+    text-align: center;
+  }
+  </style>
 
 </head>
 
@@ -31,32 +40,34 @@ description: My research activities in simulation, data analysis, and instrument
 <hr>
 <h2> Research topics are classified into Simulation, Data analysis, and Instrumentation </h2>
 
-I have contributed to several Cosmic Microwave Background (CMB) projects such as LiteBIRD, QUBIC, SO, CMB-S4, Planck. The future CMB projects aim to measure polarization signal that imprint primordial gravitational waves from the Early Universe of the Big Bang theory.
+I have contributed to several Cosmic Microwave Background (CMB) projects such as LiteBIRD, QUBIC, SO, CMB-S4, and Planck. Future CMB projects aim to measure polarization signal that imprint primordial gravitational waves from the Early Universe in the context of the Big Bang theory.
 
 Recently I am curious in roles magnetic fields and star formation processes.
-
-<!--- 
+<br> 
+Summary of my experiences:
 <div> 
-    <li>I started my Master internship with the Cosmic rays topic at AstroParticles and Cosmology (APC) laboratory ar Paris University.
+    <li> <h4> Measurement of magnetic fields in the plane-of-sky toward M17 cloud using SOFIA/HAWC+ thermal dust polarization at 154 micromets.</h4>
     </li>
-    <li>My first Ph.D topic is working with LiteBIRD satellite.
+    <li> <h4> Testbed Transition Edge Sensor (TES) focal plane for Simons Observatory.</h4>
     </li>
-     <li>My second Ph.D topic is working with ground-based experiment QUBIC.
+     <li><h4> Study systematic effects for LiteBIRD CMB satellite.</h4>
     </li>
-     <li>My first Postdoc topic is working with ground-based experiment QUBIC.
+     <li> <h4> Testbed Transition Edge Sensor (TES) array with a radioactive source for ground-based QUBIC experiment.</h4>
     </li>
-     <li>In parallel, my second Postdoc topic is working with ground-based experiment QUBIC.
+     <li> <h4>Study survey strategy at Atacama-Chile for CMB-S4 project.</h4>
     </li>
-    <li>In parallel, my second Postdoc topic is working with ground-based experiment QUBIC.
+    <li> <h4>Cosmic ray interaction with detectors of the Planck satel-lite and the future mission LiteBIRD.</h4>
     </li>
 </div>
--->
 
+<hr> 
 <p> 
   <div class="alert alert-success">
     <strong>6. SOFIA:</strong> Magnetic fields toward M17 cloud.
   </div>
    <img src="https://hoangducthuong.github.io/images/M17_GLM_Spitzer_cube_arcsinh.png" alt="M17 Spitzer" width="100%">
+   <figcaption>Figure: An RGB image of M17 Photodissociation Region (PDR).</figcaption>
+
    Star formation is a complex process, which is affected by self-gravity, turbulence, and magnetic fields (B-fields). 
    Understanding the exact role of magnetic fields in the evolution of dense clouds and star formation processes is a challenge in modern astrophysics. 
    Dust polarization induced by aligned grains is a popular technique to study b-fields. 
@@ -76,9 +87,30 @@ The study is published in [<a href="" target="_blank"> In preparation </a>]
     <strong>5. Simons Observatory (SO):</strong> Testbed focal plane.
 </div>
 <img src="https://hoangducthuong.github.io/images/IMG_0598.jpeg" alt="Cornell cryostar for Simons Observatory" width="100%">
-Testbed focal plane of thousands Transistion Edge Sensors and readout system
+<figcaption>Figure: Testbed focal plane module of thousands Transistion Edge Sensors and readout system at Mike Niemach's Cosmology group - Cornell University.</figcaption>
 
-The study is published in [<a href="https://arxiv.org/abs/2012.04532" target="_blank"> arXiv:2012.04532 </a>]
+The Simons Observatory (SO) is a Cosmic Microwave Background (CMB) project, that willbe located in the Atacama desert in Northern Chile. 
+The scientific goals are to study the early Universe, its content and evolution. The SO experiment will deploy a 6m Cross-Dragone Large Aperture Telescope (LAT) 
+and three 42 cm Small Aperture Telescopes (SATs) using detector arrays of thousands Transition Edge-Sensors (TES) in a Universal Focal plane Module (UFM). 
+The LAT design will allow to optimally measure the CMB anisotropies at arcminute scales and the SATs will observe low foreground regions searching B-mode signal. <br>
+<br>
+I have been working on the testbed system for the readout chain and Universal Microwave Multiplexing (UMM) of the UFM including the performance, screening, and designrequirements.
+In  particular, 
+<li> 
+Screening a 500 micromets thickness silicon wafer to measure the lumped shunt resistance with a warm method using a microscope, 
+and a cold method using the four wiresmeasurement approach readout by our electronic designed system from 100 mK to the warm temperature.
+</li>
+<li> 
+We know that a SQUID (Superconducting Quantum Interference Devides) is very sensitive to an externalmagnetic field, 
+in order to design a magnetic shield for the UFM, we embed the UMM inside a Helmholtz coil (a device generates a nearly uniform magnetic field) 
+and observedthe shifting resonators when the magnetic field is varied.  
+</li>
+<li>
+Optical characterized UFM, I have adopted a system named the coldload which allows us to set up a black-body radiation emission at the 4K stage inside a dilution refrigerator. 
+This system will characterize theoptical parameters of TESs, the result will be compared between the theoretical design andthe experimental observation
+</li>
+<br> <br>
+A study of external magnetic fields and the SO's readout system SQUID is published in [<a href="https://arxiv.org/abs/2012.04532" target="_blank"> arXiv:2012.04532 </a>]
 </p>
 
 <p> 
@@ -86,15 +118,47 @@ The study is published in [<a href="https://arxiv.org/abs/2012.04532" target="_b
     <strong>4. LiteBIRD:</strong> Systematics effects.
 </div>
 <img src="https://hoangducthuong.github.io/images/LiteBIRD_web.jpg" alt="LiteBIRD satellite" width="100%">
+<figcaption>Figure: Testbed focal plane of thousands Transistion Edge Sensors and readout system at Mike Niemach's Cosmology group - Cornell University.</figcaption>
+
+
+The future Cosmic Microwave Background (CMB) satellite LiteBird have been selected to probe B mode polarization to measure the tensor-to-scalar r ratio 
+with a sensitivity σr ≤ 0.001, which is almost two orders of magnitude beyond the Planck sensitivity. 
+Several important systematic effects could contribute to final observation as 1/f noise, asymmetric beams, bandpass mismatches, the interaction of cosmic rays withthe focal plane. <br>
+<br>
+Bandpass mismatch error is one of the important systematic effects that can affect thecurrent and next-generation measurements of the polarization of the Cosmic  Micro wave Background radiation (CMB). 
+The slightly different frequency bandpasses among detectorsintroduce leakage from intensity into CMB polarization. <br>
+<br>
+
+Using full focal plane simulations, I evaluated the level of this effect for future CMB satellite missions and estimated of 
+its possible impact on the final determination of the tensor-to-scalar ratio r.  
+I have simulated thetime streams with filter variations as observed in the Planck HFI. 
+I assumed nominal scanning strategies and detector parameters for LiteBIRD. I projected data using the simplest map-making coaddition method. 
+Power spectra of residual EE and BB coming from the leakage maps are computed for 80 % sky fraction excluding the galactic plane. 
+The amplitude of leakage depends on the scanning strategy of the satellite parameterized with precession angle, spin angle, precession spin and rotating spin. 
+The conclusion of this work is that the spurious angular power spectrum could potentially bias r for measurements of the reionization bump, and of the recombination bump. 
+The bandpass mismatch effect is negligible in case of an ideal HWP.
+<br> <br>
 The study is published in JCAP [<a href="https://arxiv.org/abs/1706.09486" target="_blank"> arXiv:1706.09486 </a>]
 </p>
 
 <p> 
   <div class="alert alert-danger">
-    <strong>3. QUBIC:</strong> Testbed TES array.
+    <strong>3. QUBIC:</strong> Testbed Transition Edge Sensor (TES) array with a radioactive source.
   </div>
 <img src="https://hoangducthuong.github.io/images/QUBIC_TESarray_web.jpg" alt="Cornell cryostar for Simons Observatory" width="100%">
+<figcaption>A set up of radioactive source in front of an 256-TES arrays inside a cryostat at AstroParticles and Cosmology laboratory - Paris University.</figcaption>
 
+
+I have studied the interaction of particles with a 256 TESs array of the ground-based QUBIC(Q&U bolometric interferometer for cosmology) experiment. 
+In order to test the sensitivity of detectors to cosmic rays, the behaviour of TES array will be similarily as study of collecting CMB photons from the sky. <br> 
+<br> 
+An 241 Americium radioactive source is set up in front of the 256-TES array in the mixing chamber inside the cryostat cooling down to background temperature Tb=300 mK. 
+When particles hit a TES pixel, the deposited energy could be transformed to temperature elevation of the TES components (eg: Thermometer, absorbing grid, substrate) 
+and also affect the neighbor pixels that provides a possible measurement of the cross-talk among pixels. <br>
+<br>
+
+This study allows us to understand the intrinsic time constant of a TES and the readout system time constant.
+<br> <br>
 The study is published in [<a href="https://doi.org/10.1117/12.2312080" target="_blank"> https://doi.org/10.1117/12.2312080 </a>], and [<a href="https://arxiv.org/abs/2101.06787" target="_blank"> arXiv:2101.06787 </a>]
 </p>
 
@@ -102,27 +166,49 @@ The study is published in [<a href="https://doi.org/10.1117/12.2312080" target="
   <div class="alert alert-info">
     <strong>2. CMB-S4:</strong> Survey strategy at Atacama-Chile.
   </div>
-
   <img src="https://hoangducthuong.github.io/images/lat_hist_highcadence_year_cosecant_145_nside64_horizontal_el40_az20160_38det_fov8.png" alt="Cornell cryostar for Simons Observatory" width="100%">
+  <figcaption>Figure: The hitcount map of a single detector fo one year observaton of a Large Aperture Telescope (LAT) at Atacama.</figcaption>
 
-  I contribute to the CMB-S4 survey strategy study. The detail study of CMB-S4 Large Aperture Tescope (LAT) at Chile is written in CMB-S4 website [ <a href="https://cmb-s4.uchicago.edu/wiki/index.php/Modulated_scan_high_cadence_LAT" target="_blank"> Modulate scan high cadence LAT </a> ].
+  Current and next ground-based CMB experiments will mainly deploy at two major sites, the Simons Observatory at the Atacama Desert in Chile and the South Pole Observatory. 
+  The observation strategy of an instrument plays an essential role in the ability to increasingly sensitive maps of the CMB polarization anisotropies. 
+  <br> <br>
+
+  I have been studying the optimization strategies for telescopes located at the Atacama Desert site (SO, CMB-S4, CCAT: Cerro Chajnantor Atacama Telescope) using 
+  the Time Ordered Astrophysics Scalable Tools (<a href="https://toast-cmb.readthedocs.io/en/latest/" target="_blank"> TOAST</a> T) installed at the National Energy Research Scientific Computing Center (NERSC). 
+  In my study, TOAST is used to simulate a hardware configuration of a typical telescope then create a sky observation. 
+  The resulted observational schedule and hit count maps of detectors can be used to evaluate the depth, efficiency, and uniformity of the survey strategy.  <br>
+  <br>
+  
+  The detail study of CMB-S4 Large Aperture Tescope (LAT) at Chile is written in CMB-S4 website [ <a href="https://cmb-s4.uchicago.edu/wiki/index.php/Modulated_scan_high_cadence_LAT" target="_blank"> Modulate scan high cadence LAT </a> ].
   
 </p> 
 
 
-
 <p>
   <div class="alert alert-success">
-    <strong>1. Planck:</strong> Cosmic Rays.
+    <strong>1. Planck:</strong> Bolometer and Cosmic Rays.
   </div>
 
 <img src="https://hoangducthuong.github.io/images/cumul_compare_week.png" alt="Planck HFI" width="100%">
+<figcaption>Figure: The agreement between analytical approach and MCMC simulation for number of events per deposit energy for Proton and Helium primary Cosmic Rays.</figcaption>
 
-Master thesis [<a src="https://hoangducthuong.github.io//slides/master_thesis.pdf" target="_blank"> pdf </a> ].
+
+In my master thesis (2015), I worked on the topic:  Cosmic rays (CRs) interaction with Planck satellite detectors for the measurement of the CMB radiation polarization. 
+The galactic particle of energy ∼1 GeV hit the silicon die of polarization sensitive bolometers (PSB) and spider wed bolometers (SWB). 
+The interaction produces long glitches (τ≈500 ms)on the scientific data. Therefore the modeling, analysis, and simulation play a vital role tounderstand and characterize of the long glitches. 
+This understanding allows us to better remove the impact of the long glitches in polarization sensitive bolometers data. <br>
+<br>
+I developed a simple model of the interaction of galactic particles with the silicon die of the Planck bolometers. 
+I predicted the number of events per deposit energyd due to primary cosmic rays particles. 
+I have observed good agreements between the analytical approach and the Monte Carlo simulation method. 
+
+<br><br>
+
+Basing on this experienced study with Planck, I had been studying the interaction of cosmic rays with the focal plane of the LiteBIRD mission.
+<br> <br>
+Master thesis [<a href="https://hoangducthuong.github.io/slides/master_thesis.pdf" target="_blank"> pdf </a> ].
 
 </p> 
-
-
 
 
 <hr>
