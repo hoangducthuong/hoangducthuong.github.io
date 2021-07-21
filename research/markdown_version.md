@@ -1,7 +1,10 @@
 ---
-layout: default
-title: Thuong Hoang research
-description: My research activities in simulation, data analysis, and instrumentation
+noteId: "13a3dd50e9e911eb86a0ed92a97ac678"
+tags: []
+layout: "default"
+title: "Thuong Hoang research"
+description: "My research activities in simulation, data analysis, and instrumentation"
+
 ---
 
 **Hi there, I am Thuong D. HOANG, a cosmologist and astrophysicist**
