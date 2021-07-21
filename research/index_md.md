@@ -8,7 +8,7 @@ description: My research activities in simulation, data analysis, and instrument
 
 _Definition of me: Big Bang theory, Inflation, Cosmic Microwaves Background, Transision Edge Sensor (TES), Cryogenics system, Magnetic fields and star formation, Dust polarization_
 
----
+<hr>
 # Research topics are classified into Simulation, Data analysis, and Instrumentation
 I have contributed to several Cosmic Microwave Background (CMB) projects such as LiteBIRD, QUBIC, SO, CMB-S4, Planck. The future CMB projects aim to measure polarization signal that imprint primordial gravitational waves from the Early Universe of the Big Bang theory.
 

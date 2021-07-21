@@ -75,12 +75,3 @@ Cosmic Microwave Background polarization [ <a href="http://theses.md.univ-paris-
 
 <a href="https://hoangducthuong.github.io/research" target="_blank"> > Read more about my Research.</a>
 
-
----
-# Image gallery
-<!--[Image](/images/thumbnail.png) -->
-
-<a href="https://hoangducthuong.github.io/gallery.html" target="_blank">My favorist photo Gallery  </a>, related Planck results, photos can be found in <a href="https://www.cosmos.esa.int/web/planck/picture-gallery" target="_blank"> Planck gallery </a>
-
-
-
