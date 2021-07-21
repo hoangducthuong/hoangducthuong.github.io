@@ -19,7 +19,7 @@ I obtained Ph.D in Physics of the Universe from AstroParticle and Cosmology (APC
 After completing PhD, I won an appointment as a postdoctoral associate at Cornell University.
 <img src="/images/IMG_7931.jpg" alt="Italian Trulli" width="100%">
 <!-- [Branching](https://hoangducthuong.github.io/images/IMG_7931_web.jpg) -->
-<a href="https://hoangducthuong.github.io/cv" target="_blank"> > Read more about my CV.</a>
+<!-- <a href="https://hoangducthuong.github.io/cv" target="_blank"> > Read more about my CV.</a> -->
 
 ---
 # Research
