@@ -38,10 +38,110 @@ description: My research experiences in simulation, data analysis, and instrumen
   }
   </style>
 
+<style>
+  /* A style for the photo gallery */
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  </style>
+ 
 </head>
 
-
+<!-- Body start from here -->
 <body>
+
   <i>Keywords: Big Bang theory, Inflation, Cosmic Microwaves Background, Transision Edge Sensor (TES), Cryogenics system, Magnetic fields and star formation, Dust polarization </i> <br> 
 
 <hr>
@@ -126,7 +226,7 @@ and observedthe shifting resonators when the magnetic field is varied.
 Optical characterized UFM, I have adopted a system named the coldload which allows us to set up a black-body radiation emission at the 4K stage inside a dilution refrigerator. 
 This system will characterize theoptical parameters of TESs, the result will be compared between the theoretical design andthe experimental observation
 </li>
-<br> <br>
+<br>
 A study of external magnetic fields and the SO's readout system SQUID is published in [<a href="https://arxiv.org/abs/2012.04532" target="_blank"> arXiv:2012.04532 </a>]
 </p>
 
@@ -255,6 +355,111 @@ Master thesis [<a href="https://hoangducthuong.github.io/slides/master_thesis.pd
 
 <a href="https://hoangducthuong.github.io/gallery.html" target="_blank">My favorist photo Gallery  </a>, related Planck results, photos can be found in <a href="https://www.cosmos.esa.int/web/planck/picture-gallery" target="_blank"> Planck gallery </a>
 
+
+<h2 style="text-align:center">My favorist scientific image gallery</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 7</div>
+    <img src="https://hoangducthuong.github.io/images/thumbnail.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 7</div>
+    <img src="https://hoangducthuong.github.io/images/rms_spectrum_pol_long.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 7</div>
+    <img src="https://hoangducthuong.github.io/images/CMB.png" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 7</div>
+    <img src="https://hoangducthuong.github.io/images/M17_GLM_Spitzer_cube_arcsinh_1.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 7</div>
+    <img src="https://hoangducthuong.github.io/images/history-of-the-universe-2015.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 7</div>
+    <img src="https://hoangducthuong.github.io/images/IMG_0598.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">7 / 7</div>
+    <img src="https://hoangducthuong.github.io/images/Planck2018_TestTestV4BK14LegacyV4_120mm.pdf" style="width:100%">
+  </div>
+    
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="https://hoangducthuong.github.io/images/thumbnail.png" style="height:200px" onclick="currentSlide(1)" alt="Magnetic field lines traced by dust emission at 353 GHz [Planck gallery]">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://hoangducthuong.github.io/images/rms_spectrum_pol_long.png" style="height:200px" onclick="currentSlide(2)" alt="CMB foreground">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://hoangducthuong.github.io/images/CMB.png" style="height:200px" onclick="currentSlide(3)" alt="CMB temperature anisotropies">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://hoangducthuong.github.io/images/M17_GLM_Spitzer_cube_arcsinh.png" style="height:200px" onclick="currentSlide(4)" alt="M17 RGB image using Spitzer data channels 1,2,4 ">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://hoangducthuong.github.io/images/history-of-the-universe-2015.jpg" style="height:200px" onclick="currentSlide(5)" alt="History of the Universe">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="https://hoangducthuong.github.io/images/IMG_0598.jpeg" style="height:200px" onclick="currentSlide(6)" alt="Cryogenics system for superconducting detectors">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://hoangducthuong.github.io/images/Planck2018_TestTestV4BK14LegacyV4_120mm.pdf" style="height:200px" onclick="currentSlide(7)" alt="Test inflation models">
+    </div>
+  </div>
+</div>
+
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
 
 
 </body>
