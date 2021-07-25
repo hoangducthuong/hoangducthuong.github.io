@@ -37,7 +37,7 @@
   .carousel-inner img {
     /* -webkit-filter: grayscale(90%); */ 
     /* filter: grayscale(90%) make all photos black and white */ 
-    
+
     width: 100%; /* Set width to 100% */
     margin: auto;
   }
@@ -153,6 +153,7 @@
     resize: none;
   }
   </style>
+
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -164,21 +165,27 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage">Logo</a>
+      <a class="navbar-brand" href="#myPage"> Thuong HOANG </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#myPage">HOME</a></li>
-        <li><a href="#band">Albums</a></li>
+        <!-- 
         <li><a href="#tour">TOUR</a></li>
+        -->
+        <li><a href="#band">PARIS</a></li>
         <li><a href="#contact">CONTACT</a></li>
         <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">ALBUMS
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Merchandise</a></li>
-            <li><a href="#">Extras</a></li>
-            <li><a href="#">Media</a></li> 
+            
+            <li><a href="#">Tokyo</a></li>
+            <li><a href="#">NewYork</a></li>
+            <li><a href="#">San Francisco</a></li> 
+            <li><a href="#">Keukenhof</a></li>
+            <li><a href="#">Paris</a></li>
+
           </ul>
         </li>
         <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
@@ -193,6 +200,8 @@
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -221,6 +230,21 @@
         </div>      
       </div>
 
+      <div class="item">
+        <img src="https://hoangducthuong.github.io/photography/photos/Tokyo.jpg" alt="Tokyo" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>Tokyo</h3>
+          <p>Tokyo</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="https://hoangducthuong.github.io/photography/photos/Keukenhof.jpg" alt="Keukenhof" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>Keukenhof</h3>
+          <p>Keukenhof</p>
+        </div>      
+      </div>
 
     </div>
 
@@ -234,6 +258,8 @@
       <span class="sr-only">Next</span>
     </a>
 </div>
+
+
 
 
 <!-- Container (The Band Section) -->
@@ -413,6 +439,7 @@
     </div>
   </div>
 </div>
+
 
 <!-- Image of location/map -->
 <img src="map.jpg" class="img-responsive" style="width:100%">
