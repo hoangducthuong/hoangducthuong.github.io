@@ -10,7 +10,9 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
+ 
+ <style>
+   /* style for this BS band originally  */
   body {
     font: 400 15px/1.8 Lato, sans-serif;
     color: #777;
@@ -173,7 +175,107 @@
   }
   
   </style>
+
+<style>
+  /* style for album gallery */ 
+  * {box-sizing: border-box}
+  body {font-family: Verdana, sans-serif; margin:0}
+  .mySlides {display: none}
+  img {vertical-align: middle;}
   
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+  </style>
 
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
@@ -341,48 +443,52 @@
   </p>
   <br>
 
-  <div class="row"> <!-- first row -->
+  <div class="row"> <!-- first row, 3 columes -->
     <div class="col-sm-4">
       <p class="text-center"><strong>Tour de Fiffel</strong></p><br>
       <a href="#demo" data-toggle="collapse">
-        <img id="open" src="https://hoangducthuong.github.io/photography/photos/thumbnail_Effel.jpg" class="img-circle person" alt="Effel" width="255" height="255">
+        <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_Effel.jpg" class="img-circle person" alt="Effel" width="255" height="255">
       </a>
-      <!-- <div id="demo" class="collapse"> -->
-      <div id="demo" class="lightbox">
-        <!-- Wrapper for slides, it does not work, need to make a new method to show photos 
+      <div id="demo" class="collapse">
+      <!-- <div id="demo" class="lightbox">
+         Wrapper for slides, it does not work, need to make a new method to show photos  
+        <p>show collapse </p>   -->
 
-        <div id="demo" class="lightbox"> -->
-          <div class="row">
-            <div class="col-lg-6">
-              <img
-                src="https://mdbootstrap.com/img/Photos/Thumbnails/Slides/1.jpg"
-                data-mdb-img="https://mdbootstrap.com/img/Photos/Slides/1.jpg"
-                data-mbd-img="https://mdbootstrap.com/img/Photos/Square/1.jpg"
-                alt="Lightbox image 1"
-                class="w-100 mb-2 mb-md-4 shadow-1-strong rounded"
-              />
-              <img
-                src="https://mdbootstrap.com/img/Photos/Thumbnails/Square/1.jpg"
-                data-mdb-img="https://mdbootstrap.com/img/Photos/Square/1.jpg"
-                alt="Lightbox image 2"
-                class="w-100 shadow-1-strong rounded"
-              />
-            </div>
-            <div class="col-lg-6">
-              <img
-                src="https://mdbootstrap.com/img/Photos/Thumbnails/Vertical/1.jpg"
-                data-mdb-img="https://mdbootstrap.com/img/Photos/Vertical/1.jpg"
-                alt="Lightbox image 3"
-                class="w-100 shadow-1-strong rounded"
-              />
-            </div>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="https://hoangducthuong.github.io/photography/photos/effel/Effel.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
           </div>
-        
 
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="https://hoangducthuong.github.io/photography/photos/effel/paris1.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+          </div>
 
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="https://hoangducthuong.github.io/photography/photos/effel/paris1.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
 
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
+        </div>
+        <br>
 
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
 
 
       </div>
@@ -395,66 +501,9 @@
       <a href="#demo2" data-toggle="collapse">
         <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_notreDame.jpg" class="img-circle person" alt="Notre-Dame" width="255" height="255">
       </a>
-      <!--
-      <div id="demo2" class="collapse">  -->
- 
-      <div id="demo2" class="lightbox">
-          <div class="multi-carousel">
-            <div class="multi-carousel-inner">
-              <div class="multi-carousel-item">
-                <img
-                  src="https://mdbootstrap.com/img/Photos/Thumbnails/Slides/1.jpg"
-                  data-mdb-img="https://mdbootstrap.com/img/Photos/Slides/1.jpg"
-                  alt="Gallery image 1"
-                  class="w-100"
-                />
-              </div>
-              <div class="multi-carousel-item">
-                <img
-                  src="https://mdbootstrap.com/img/Photos/Thumbnails/Slides/2.jpg"
-                  data-mdb-img="https://mdbootstrap.com/img/Photos/Slides/2.jpg"
-                  alt="Gallery image 2"
-                  class="w-100"
-                />
-              </div>
-              <div class="multi-carousel-item">
-                <img
-                  src="https://mdbootstrap.com/img/Photos/Thumbnails/Slides/3.jpg"
-                  data-mdb-img="https://mdbootstrap.com/img/Photos/Slides/3.jpg"
-                  alt="Gallery image 3"
-                  class="w-100"
-                />
-              </div>
-              <div class="multi-carousel-item">
-                <img
-                  src="https://mdbootstrap.com/img/Photos/Thumbnails/Slides/4.jpg"
-                  data-mdb-img="https://mdbootstrap.com/img/Photos/Slides/4.jpg"
-                  alt="Gallery image 4"
-                  class="w-100"
-                />
-              </div>
-            </div>
+      <div id="demo2" class="collapse"> 
 
-            <button
-              class="carousel-control-prev"
-              type="button"
-              tabindex="0"
-              data-mdb-slide="prev"
-            >
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              tabindex="0"
-              data-mdb-slide="next"
-            >
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </button>
-          </div>
-      
-
-
+        <p> Show </p>
 
       </div>
     </div>
@@ -535,7 +584,7 @@
     <div class="row text-center">
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_tokyo_pagoda.jpg" alt="Paris" width="400" height="300">
+          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_tokyo_pagoda.jpg" class="img-thumbnail" alt="Paris" width="400" height="300">
           <p><strong>Tokyo</strong></p>
           <p>Photos are taken in my working visit during my PhD.</p>
           <button class="btn" data-toggle="modal" data-target="#myModal">View Album</button>
@@ -544,7 +593,7 @@
 
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_SanFrancisco.jpg" alt="New York" width="400" height="300">
+          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_SanFrancisco.jpg" class="img-thumbnail" alt="New York" width="400" height="300">
           <p><strong>San Francisco</strong></p>
           <p>My first trip to USA</p>
           <button class="btn" data-toggle="modal" data-target="#myModal">View Album</button>
@@ -554,7 +603,7 @@
 
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_newyork.jpg" alt="New York" width="400" height="300">
+          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_newyork.jpg" class="img-thumbnail" alt="New York" width="400" height="300">
           <p><strong>New York</strong></p>
           <p>My postdoc time</p>
           <button class="btn" data-toggle="modal" data-target="#myModal">View Album</button>
@@ -564,7 +613,7 @@
 
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_madrid.jpg" alt="Madrid" width="400" height="300">
+          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_madrid.jpg" class="img-thumbnail" alt="Madrid" width="400" height="300">
           <p><strong>Madrid</strong></p>
           <p>Conference during my Ph.D</p>
           <button class="btn" data-toggle="modal" data-target="#myModal">View Album</button>
@@ -574,7 +623,7 @@
 
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_barce.jpg" alt="Barcelone" width="400" height="300">
+          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_barce.jpg" class="img-thumbnail" alt="Barcelone" width="400" height="300">
           <p><strong>Barcelone</strong></p>
           <p>Vacation</p>
           <button class="btn" data-toggle="modal" data-target="#myModal">View Album</button>
@@ -584,7 +633,7 @@
 
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_Keukenhof.jpg" alt="Keukenhof" width="400" height="300">
+          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_Keukenhof.jpg" class="img-thumbnail" alt="Keukenhof" width="400" height="300">
           <p><strong>Keukenhof</strong></p>
           <p>Tulip season</p>
           <button class="btn" data-toggle="modal" data-target="#myModal">View Album</button>
@@ -593,7 +642,7 @@
 
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_quinhon.jpg" alt="Qui Nhon" width="400" height="300">
+          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_quinhon.jpg" class="img-thumbnail" alt="Qui Nhon" width="400" height="300">
           <p><strong>Qui Nhon</strong></p>
           <p>Cosmology conference</p>
           <button class="btn" data-toggle="modal" data-target="#myModal">View Album</button>
@@ -603,7 +652,7 @@
 
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_florence.jpg" alt="Florence" width="400" height="300">
+          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_florence.jpg" class="img-thumbnail" alt="Florence" width="400" height="300">
           <p><strong>Florence</strong></p>
           <p>Italyn</p>
           <button class="btn" data-toggle="modal" data-target="#myModal">View Album</button>
@@ -613,7 +662,7 @@
 
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_HaiDuong.jpg" alt="Hai Duong" width="400" height="300">
+          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_HaiDuong.jpg" class="img-thumbnail" alt="Hai Duong" width="400" height="300">
           <p><strong>Hai Duong</strong></p>
           <p>Lunar New Year</p>
           <button class="btn" data-toggle="modal" data-target="#myModal">View Album</button>
@@ -623,7 +672,7 @@
 
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_cornell.jpg" alt="Cornell" width="400" height="300">
+          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_cornell.jpg" class="img-thumbnail" alt="Cornell" width="400" height="300">
           <p><strong>Cornell campus</strong></p>
           <p>My postdoct University</p>
           <button class="btn" data-toggle="modal" data-target="#myModal">View Album</button>
@@ -633,7 +682,7 @@
 
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_Keukenhof.jpg" alt="Standford" width="400" height="300">
+          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_Keukenhof.jpg" class="img-thumbnail" alt="Standford" width="400" height="300">
           <p><strong>Stanford campus</strong></p>
           <p>My visiting during PhD period.</p>
           <button class="btn" data-toggle="modal" data-target="#myModal">View Album</button>
@@ -644,7 +693,7 @@
 
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_Keukenhof.jpg" alt="Princeton" width="400" height="300">
+          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_Keukenhof.jpg" class="img-thumbnail" alt="Princeton" width="400" height="300">
           <p><strong>Princeton campus</strong></p>
           <p>My visiting for postdoc work</p>
           <button class="btn" data-toggle="modal" data-target="#myModal">View Album</button>
@@ -653,7 +702,7 @@
       
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_berkeley.jpg" alt="Princeton" width="400" height="300">
+          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_berkeley.jpg" class="img-thumbnail" alt="Princeton" width="400" height="300">
           <p><strong>Berkeley campus</strong></p>
           <p>My visiting for PhD, and postdoc work</p>
           <button class="btn" data-toggle="modal" data-target="#myModal">View Album</button>
@@ -723,8 +772,6 @@
     </div>
   
 </div>
-
-  
 
 
 
@@ -835,6 +882,38 @@ $(document).ready(function(){
   });
 })
 </script>
+
+
+<script> 
+/* script for slide show: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow  */ 
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+
 
 </body>
 </html>
