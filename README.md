@@ -1,7 +1,4 @@
 ---
-noteId: "356e5b60e9fb11eb86a0ed92a97ac678"
-tags: []
-
 ---
 
 [https://hoangducthuong.github.io/](https://hoangducthuong.github.io/)
@@ -17,8 +14,6 @@ _Definition of me: Big Bang theory, Inflation, Cosmic Microwaves Background, Tra
 Currently, I am a lecturer/researcher in the Department of Space and Applications (DSA) at University of Science and Technology of Hanoi (USTH) since January 1, 2021. 
 I obtained Ph.D in Physics of the Universe from AstroParticle and Cosmology (APC) laboratory, University of Paris, in 2018. 
 After completing PhD, I won an appointment as a postdoctoral associate at Cornell University.
-<img src="/images/IMG_7931.jpg" alt="Italian Trulli" width="100%">
-<!-- [Branching](https://hoangducthuong.github.io/images/IMG_7931_web.jpg) -->
 <!-- <a href="https://hoangducthuong.github.io/cv" target="_blank"> > Read more about my CV.</a> -->
 
 ---
