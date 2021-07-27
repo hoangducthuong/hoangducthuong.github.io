@@ -190,8 +190,8 @@
     padding: 5px 0;  /* 5 pixels top bottom and 0 left-right */
     left: 0;         /* position for modal, lef 0 px */ 
     top: 0;          /* position for modal, top 0 px */ 
-    width: 85%;
-    height: 85%;
+    width: 100%;
+    height: 100%;
     overflow: auto;  /* in case of overflow, we have to use scroll bar */ 
     background-color: rgba(11, 0, 0, 0);
   }
@@ -201,14 +201,13 @@
     margin: auto; /* give margin that modal content in center */
     padding: 0;
     width:100%;
-    max-width: 100%;
+    max-width: 120%;
     border: none;
-    background-color: rgba(199, 194, 194, 0.473); /*  transparent; */
+    background-color: rgba(4, 4, 4, 0.75); /*  transparent; */
 }
 
 .my-slides{
   text-align: center;
-  width: 85%;
 }
 
 .close{
@@ -426,7 +425,9 @@
 
 <h1> The site is developing! </h1>
 
-<!-- Container (The Band Section) -->
+
+
+<!-- Container (The Paris Section) -->
 <div id="paris" class="container text-center">
   <h3>PARIS PHOTOGRAPHY</h3>
   <p><em>Paris is the city of love!</em></p>
@@ -447,6 +448,7 @@
     <div class="col-sm-4">
       <p class="text-center"><strong>Tour de Fiffel</strong>
       </p><br>
+
       <!--
       <a href="#demo1" data-toggle="collapse">
         <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_Effel.jpg" class="img-circle person" alt="Effel" width="255" height="255"> 
@@ -461,7 +463,7 @@
       </a>
       -->
     
-      <a  href="#my-modal" data-toggle="modal">
+      <a  href="#my-modal" data-toggle="collapse">
         <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_Effel.jpg" class="img-circle person" alt="Effel" width="255" height="255"> 
           <!-- Try modal full screen image Begins -->
           <div id="my-modal" class="modal">
@@ -475,18 +477,18 @@
               <!-- Images for Modal (Image Viewer or Slide show)-->
               <div class="my-slide">
                 <div class="numbertext">1/3</div>
-                <img src="https://hoangducthuong.github.io/photography/photos/effel/Effel.jpg">
+                <img src="https://hoangducthuong.github.io/photography/photos/effel/Effel.jpg" width=100%>
               </div>
 
               <div class="my-slide">
                 <div class="numbertext">2/3</div>
-                <img src="https://hoangducthuong.github.io/photography/photos/effel/paris1.jpg">
+                <img src="https://hoangducthuong.github.io/photography/photos/effel/paris1.jpg"width=100%>
               </div>
 
 
               <div class="my-slide">
                 <div class="numbertext">3/3</div>
-                <img src="https://hoangducthuong.github.io/photography/photos/effel/Effel.jpg">
+                <img src="https://hoangducthuong.github.io/photography/photos/effel/Effel.jpg" width=100%>
               </div>
 
 
@@ -536,7 +538,7 @@
     </div>
 
 
-    
+
   </div>
 
 
@@ -602,12 +604,15 @@
 
 
     <div class="row text-center">
+
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_tokyo_pagoda.jpg" class="img-thumbnail" alt="Paris" width="400" height="300">
-          <p><strong>Tokyo</strong></p>
-          <p>Photos are taken in my working visit during my PhD.</p>
-          <button class="btn" data-toggle="modal" data-target="#my-modal1">View Album</button>
+            <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_tokyo_pagoda.jpg" class="img-thumbnail" alt="Paris" width="400" height="300">
+            <p><strong>Tokyo</strong></p>
+            <p>Photos are taken in my working visit during my PhD.</p>
+            <div data-toggle="collapse" data-target="#my-modal">
+              <button class="btn">View Album</button>
+            </div>
         </div>
       </div>
 
@@ -616,7 +621,7 @@
           <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_SanFrancisco.jpg" class="img-thumbnail" alt="New York" width="400" height="300">
           <p><strong>San Francisco</strong></p>
           <p>My first trip to USA</p>
-          <button class="btn" data-toggle="modal" data-target="#my-modal1">View Album</button>
+          <button class="btn" data-toggle="modal" data-target="#my-modal">View Album</button>
         </div>
       </div>
 
@@ -752,7 +757,7 @@
 
 
 <!-- Try modal full screen image Begins -->
-<div id="my-modal1" class="modal">
+<div id="my-modal" class="modal">
 
   <!-- Close button-->
   <span class="close" onclick="closeModal()">&times;</span>
@@ -763,18 +768,18 @@
     <!-- Images for Modal (Image Viewer or Slide show)-->
     <div class="my-slide">
       <div class="numbertext">1/3</div>
-      <img src="https://hoangducthuong.github.io/photography/photos/effel/Effel.jpg">
+      <img src="https://hoangducthuong.github.io/photography/photos/effel/Effel.jpg" width=100%>
     </div>
 
     <div class="my-slide">
       <div class="numbertext">2/3</div>
-      <img src="https://hoangducthuong.github.io/photography/photos/effel/paris1.jpg">
+      <img src="https://hoangducthuong.github.io/photography/photos/effel/paris1.jpg" width=100%>
     </div>
 
 
     <div class="my-slide">
       <div class="numbertext">3/3</div>
-      <img src="https://hoangducthuong.github.io/photography/photos/effel/Effel.jpg">
+      <img src="https://hoangducthuong.github.io/photography/photos/effel/Effel.jpg" width=100%>
     </div>
 
 
@@ -869,13 +874,13 @@
   /* Open Modal (Image Viewer or Slide Show */
   function openModal(){
     /* Show Image Viewer or modal when any image is clicked */
-    document.getElementById('my-modal').style.display = "inline-flex"
+    document.getElementById("my-modal").style.display = "inline-flex"
   }
 
     /* Open Modal (Image Viewer or Slide Show */
     function closeModal(){
     /* Show Image Viewer or modal when any image is clicked */
-    document.getElementById('my-modal').style.display = "none"
+    document.getElementById("my-modal").style.display = "none"
   }
 
   /* Declare variable slideIndex and initialise to 1 */
