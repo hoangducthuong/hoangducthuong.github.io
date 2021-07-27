@@ -11,6 +11,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
  
+
  <style>
    /* style for this BS band originally  */
   body {
@@ -86,6 +87,7 @@
     background-color: #fff;
     color: #000;
   }
+
   .modal-header, h4, .close {
     background-color: #333;
     color: #fff !important;
@@ -94,7 +96,10 @@
   }
   .modal-header, .modal-body {
     padding: 40px 50px;
+    width: 100%;
   }
+
+
   .nav-tabs li a {
     color: rgb(122, 118, 118);
   }
@@ -176,108 +181,90 @@
   
   </style>
 
+<!-- My modal -->
 <style>
-  /* style for album gallery */ 
+  .modal{
+    display: none;    /* the modal to be hiddin until we click */
+    position: fixed;  /* position fixed */
+    z-index: 1;      /* we want modal on top of other elements */
+    padding: 5px 0;  /* 5 pixels top bottom and 0 left-right */
+    left: 0;         /* position for modal, lef 0 px */ 
+    top: 0;          /* position for modal, top 0 px */ 
+    width: 85%;
+    height: 85%;
+    overflow: auto;  /* in case of overflow, we have to use scroll bar */ 
+    background-color: rgba(11, 0, 0, 0);
+  }
 
+  .modal-content{
+    position: relative; /*  .  */
+    margin: auto; /* give margin that modal content in center */
+    padding: 0;
+    width:100%;
+    max-width: 100%;
+    border: none;
+    background-color: rgba(199, 194, 194, 0.473); /*  transparent; */
+}
 
-  * {box-sizing: border-box}
-  body {font-family: Verdana, sans-serif; margin:0}
-  .mySlides {display: none}
-  img {vertical-align: middle;}
-  
-  /* Slideshow container */
-  .slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
-  }
-  </style>
+.my-slides{
+  text-align: center;
+}
+
+.close{
+  color: rgb(255, 255, 255) ;
+  position: absolute;
+  top: 100px;
+  right:25px;
+  font-size: 48px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+.close:hover, .close:focus{
+  color: rgb(7, 7, 7);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Next and Previous Buttons */
+.prev, .next{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #FFF !important;
+  font-weight: bold;
+  font-size: 3em;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* position the Next button to the right */
+.next{
+  right:0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev{
+  left:0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* number text */
+.numbertext{
+  color: grey;
+  font-size: 18px;
+  font-family: Lato, sans-serif;
+  padding: 8px 50px;
+  position: 8px 50px;
+  top: 0;
+  left: 10px;
+}
+
+</style>
 
 
   <nav class="navbar navbar-default navbar-fixed-top">
@@ -319,6 +306,7 @@
   </nav>
 
 </head>
+
 
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="20">
@@ -436,7 +424,6 @@
 </div>
 
 
-
 <!-- Container (The Band Section) -->
 <div id="paris" class="container text-center">
   <h3>PARIS PHOTOGRAPHY</h3>
@@ -456,32 +443,84 @@
   <div class="row"> <!-- first row, 3 columes -->
 
     <div class="col-sm-4">
-      <p class="text-center"><strong>Tour de Fiffel</strong></p><br>
-      <!-- <a href="#demo" data-toggle="collapse"> 
-      <a data-toggle="modal" data-target="#myModal1"> 
+      <p class="text-center"><strong>Tour de Fiffel</strong>
+      </p><br>
+      <!--
+      <a href="#demo1" data-toggle="collapse">
         <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_Effel.jpg" class="img-circle person" alt="Effel" width="255" height="255"> 
-      
-        <div w3-include-html="https://hoangducthuong.github.io/photography/album.html"></div> 
       </a>
-      -->
+
+      <div id="demo1" class="collapse">
+        <p> Show </p>
+      
+
       <a href="https://hoangducthuong.github.io/photography/album.html" target="_blank">
         <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_Effel.jpg" class="img-circle person" alt="Effel" width="255" height="255">
       </a>
-      
+      -->
+    
+
+      <a  href="#my-modal" data-toggle="collapse">
+        <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_Effel.jpg" class="img-circle person" alt="Effel" width="255" height="255"> 
+          <!-- Try modal full screen image Begins -->
+          <div id="my-modal" class="modal">
+
+            <!-- Close button-->
+            <span class="close" onclick="closeModal()">&times;</span>
+
+            <!-- Content for Modal -->
+            <div class="modal-content">
+
+              <!-- Images for Modal (Image Viewer or Slide show)-->
+              <div class="my-slide">
+                <div class="numbertext">1/3</div>
+                <img src="https://hoangducthuong.github.io/photography/photos/effel/Effel.jpg">
+              </div>
+
+              <div class="my-slide">
+                <div class="numbertext">2/3</div>
+                <img src="https://hoangducthuong.github.io/photography/photos/effel/paris1.jpg">
+              </div>
+
+
+              <div class="my-slide">
+                <div class="numbertext">3/3</div>
+                <img src="https://hoangducthuong.github.io/photography/photos/effel/Effel.jpg">
+              </div>
+
+
+              <!-- Next and Previous buttons-->
+              <a class="prev" onclick="changeSlides(-1)">&#10094;</a>
+              <a class="next" onclick="changeSlides(1)">&#10095;</a>
+
+            </div>
+
+
+          </div>
+          <!-- Try modal full screen image Ends -->
+
+      </a>
 
     </div>
 
 
-
     <div class="col-sm-4">
       <p class="text-center"><strong>Notre-Dame</strong></p><br>
+
       <a href="#demo2" data-toggle="collapse">
         <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_notreDame.jpg" class="img-circle person" alt="Notre-Dame" width="255" height="255">
       </a>
       <div id="demo2" class="collapse">
         <p> Show </p>
-
       </div>
+
+      <!--
+      <a href="https://hoangducthuong.github.io/photography/album.html" target="_blank">
+        <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_notreDame.jpg" class="img-circle person" alt="Effel" width="255" height="255">
+      </a>
+       -->
+       
+
     </div>
 
     <div class="col-sm-4">
@@ -495,150 +534,6 @@
     </div>
 
   </div>
-
-
-
-
-
-
-<!-- Slideshow container -->
-<div id="demo" class="slideshow-container">
-
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_Effel.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_Effel.jpg" style="width:100%">
-    <div class="text">Caption Two</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="https://hoangducthuong.github.io/photography/photos/thumbnail_Effel.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
-
-
-
-
-<!-- The Modal -->
-<div id="myModal1" class="modal">
-  <span class="close">&times;</span>
-
-  <!-- <img class="modal-content" id="img01"> -->
-      <!-- Slideshow container -->
-      <div class="class="modal-content">
-
-    
-        <div class="slideshow-container">
-  
-          <!-- Full-width images with number and caption text -->
-          <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="https://hoangducthuong.github.io/photography/photos/effel/Effel.jpg" style="width:300%">
-            <div class="text">Caption Text</div>
-          </div>
-  
-          <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="https://hoangducthuong.github.io/photography/photos/effel/paris1.jpg" style="width:300%">
-            <div class="text">Caption Two</div>
-          </div>
-  
-          <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="https://hoangducthuong.github.io/photography/photos/effel/paris1.jpg" style="width:3s00%">
-            <div class="text">Caption Three</div>
-          </div>
-  
-          <!-- Next and previous buttons -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  
-        </div>
-        
-        <br>
-  
-        <!-- The dots/circles -->
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span> 
-          <span class="dot" onclick="currentSlide(2)"></span> 
-          <span class="dot" onclick="currentSlide(3)"></span> 
-        </div>
-    
-    </div>
-    
-
-  <div id="caption"></div>
-</div>
-
-
-<!-- Modal this for buy ticket -->
-<div class="modal fade" id="myModal2" role="dialog">
-  <div class="modal-dialog"> 
-
-    <!-- Slideshow container -->
-    <div class="class="modal-content">
-
-    
-      <div class="slideshow-container">
-
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 3</div>
-          <img src="https://hoangducthuong.github.io/photography/photos/effel/Effel.jpg" style="width:300%">
-          <div class="text">Caption Text</div>
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 3</div>
-          <img src="https://hoangducthuong.github.io/photography/photos/effel/paris1.jpg" style="width:300%">
-          <div class="text">Caption Two</div>
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
-          <img src="https://hoangducthuong.github.io/photography/photos/effel/paris1.jpg" style="width:3s00%">
-          <div class="text">Caption Three</div>
-        </div>
-
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-      </div>
-      
-      <br>
-
-      <!-- The dots/circles -->
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span> 
-        <span class="dot" onclick="currentSlide(2)"></span> 
-        <span class="dot" onclick="currentSlide(3)"></span> 
-      </div>
-  
-  </div>
-
-  </div>
-</div>
 
 
 
@@ -680,13 +575,8 @@
 
 
 
-
-
-
-
-
-
 </div>
+
 
 
 
@@ -942,36 +832,8 @@
   </div>
   <br>
 
-
-<!--
-  <h3 class="text-center">From The Blog</h3>  
-  <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#home">Mike</a></li>
-    <li><a data-toggle="tab" href="#menu1">Chandler</a></li>
-    <li><a data-toggle="tab" href="#menu2">Peter</a></li>
-  </ul>
-
-
-  <div class="tab-content">
-    <div id="home" class="tab-pane fade in active">
-      <h2>Mike Ross, Manager</h2>
-      <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
-    </div>
-    <div id="menu1" class="tab-pane fade">
-      <h2>Chandler Bing, Guitarist</h2>
-      <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
-    </div>
-    <div id="menu2" class="tab-pane fade">
-      <h2>Peter Griffin, Bass player</h2>
-      <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
-    </div>
-  </div>
 </div>
- -->
 
-<!-- Image of location/map 
-<img src="map.jpg" class="img-responsive" style="width:100%">
--->
 
 
 
@@ -983,6 +845,70 @@
   </a><br><br>
   <p>Bootstrap Theme develop By <a href="https://hoangducthuong.github.io" data-toggle="tooltip" title="Thuong Hoang">https://hoangducthuong.github.io</a></p> 
 </footer>
+
+
+
+
+
+<!-- Script for Modal -->
+<script >
+  /* Open Modal (Image Viewer or Slide Show */
+  function openModal(){
+    /* Show Image Viewer or modal when any image is clicked */
+    document.getElementById('my-modal').style.display = "inline-flex"
+  }
+
+    /* Open Modal (Image Viewer or Slide Show */
+    function closeModal(){
+    /* Show Image Viewer or modal when any image is clicked */
+    document.getElementById('my-modal').style.display = "none"
+  }
+
+  /* Declare variable slideIndex and initialise to 1 */
+  var slideIndexJS = 1;
+
+  /* Calling function showSlide() by passing variable slideIndexJS. This will hide all the slides initially */ 
+  showSlides(slideIndexJS);
+
+  /* function to execute Next and Previous buttons operation */
+  function changeSlides(n){
+    showSlides(slideIndexJS +=n); /* slideIndexJS = slideIndexJS+n */
+  }
+
+  /* Display the image whose thumbnail is clicked */ 
+  function currentSlide(n){
+    showSlides(slideIndexJS = n);
+  }
+
+  /* Main function to operate the slide show or modal or image viewer */
+  function showSlides(n){
+    var i;
+
+    /* Get all elememnts with class "my-slides" */
+    var slidesJS = document.getElementsByClassName("my-slide");
+
+    /* If the slide index is greater than total no. of slides, then open 
+    slideIndexJS = 1 (begin with first slide after the last slide ends) */
+    if (n > slidesJS.length) {slideIndexJS = 1;}
+
+    /* If the slide index is less than total no. of slides, then open 
+    slideIndexJS = last (if previous button is clicked on first slide then open the last slide) */
+    if (n > 1) {slideIndexJS = slidesJS.length;}
+
+    /* Hide all slides initially */
+    for (i=0; i < slidesJS.length; i++){
+      slidesJS[i].style.display = "none";
+    }
+
+    /* Show slide which is clicked */
+    slidesJS[slideIndexJS - 1].style.display = "block";
+
+  }
+
+</script>
+
+
+
 
 <!-- Html include-->
 <script>
@@ -1053,37 +979,6 @@ $(document).ready(function(){
   });
 })
 </script>
-
-
-<script> 
-/* script for slide show: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow  */ 
-  var slideIndex = 1;
-  showSlides(slideIndex);
-  
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
-  
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
-  
-  function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}    
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-    }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-  }
-  </script>
 
 
 </body>
