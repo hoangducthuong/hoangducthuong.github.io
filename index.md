@@ -50,12 +50,13 @@ I have published scientific journals and conference proceeding papers.
 
 1.  **Thuong Duc Hoang**, Nguyen Bich Ngoc, Pham Ngoc Diep, Thiem Hoang, Le Ngoc Tram, Hien Thanh Phan, Dieu Duc Nguyen, Phuong Thi Nguyen, Chau Giang, Bao Truong Nguyen, Dat Phuc Nguyen, Tuan Van Bui _Studying magnetic fields toward M17 using polarized thermal dust emission observed bySOFIA/HAWC+_. <a href="" target="_blank"> In preparation </a>
 2.  **Duc Thuong Hoang**, Guillaume Patanchon, Martin Bucher, Tomotake Matsumura, Ranajoy Banerji, Hirokazu Ishino, Masashi Hazumi, and Jacques Delabrouille, _Bandpass mismatch error for satellite CMB experiments I: estimating the spurious signal_. <a href="https://arxiv.org/abs/1706.09486" target="_blank"> arXiv:1706.09486 </a>.
-3. Ranajoy Banerji, Guillaume Patanchon, Jacques Delabrouille, Masashi Hazumi, **Duc Thuong Hoang**, Hirokazu Ishino, Tomotake Matsumura, _Bandpass mismatch error for satellite CMB experiments II: correcting for the spurious signal_. <a href="https://arxiv.org/abs/1902.00569" target="_blank"> arXiv:1902.00569 </a>
-4.  Eve M Vavagiakis, ... **Duc-Thuong Hoang**, ... et al., _The simons observatory: Magnetic sensitivity measurements of microwave squid multiplexers_. <a href="https://arxiv.org/abs/2012.04532" target="_blank"> arXiv:2012.04532 </a>
-5. M Salatino, B Bélier, C Chapron, **DT Hoang**, S Maestre, ..., et al., _Performance of NbSi transition-edge sensors readout with a 128 MUX factor for the QUBIC experiment_. <a href="https://doi.org/10.1117/12.2312080" target="_blank"> https://doi.org/10.1117/12.2312080 </a>
-6. M. Piat, G. Stankowiak, E.S. Battistelli, P. de Bernardis, G. D Alessandro, M. De Petris, L. Grandsire, J.-Ch. Hamilton, **T.D. Hoang**, S. Marnieros, ..., et al., _QUBIC IV: Performance of TES Bolometers and Readout Electronics_. [<a href="https://arxiv.org/abs/2101.06787" target="_blank"> arXiv:2101.06787 </a>]
+3.  **Duc Thuong Hoang**, _Evaluating the level of the bandpass mismatch systematic effect for the future CMB satellites_, 53rd Rencontres de Moriond. <a href="https://hal.archives-ouvertes.fr/hal-02946210" target="_blank">hal-02946210</a>
+4. Ranajoy Banerji, Guillaume Patanchon, Jacques Delabrouille, Masashi Hazumi, **Duc Thuong Hoang**, Hirokazu Ishino, Tomotake Matsumura, _Bandpass mismatch error for satellite CMB experiments II: correcting for the spurious signal_. <a href="https://arxiv.org/abs/1902.00569" target="_blank"> arXiv:1902.00569 </a>
+5.  Eve M Vavagiakis, ... **Duc-Thuong Hoang**, ... et al., _The simons observatory: Magnetic sensitivity measurements of microwave squid multiplexers_. <a href="https://arxiv.org/abs/2012.04532" target="_blank"> arXiv:2012.04532 </a>
+6. M Salatino, B Bélier, C Chapron, **DT Hoang**, S Maestre, ..., et al., _Performance of NbSi transition-edge sensors readout with a 128 MUX factor for the QUBIC experiment_. <a href="https://doi.org/10.1117/12.2312080" target="_blank"> https://doi.org/10.1117/12.2312080 </a>
+7. M. Piat, G. Stankowiak, E.S. Battistelli, P. de Bernardis, G. D Alessandro, M. De Petris, L. Grandsire, J.-Ch. Hamilton, **T.D. Hoang**, S. Marnieros, ..., et al., _QUBIC IV: Performance of TES Bolometers and Readout Electronics_. [<a href="https://arxiv.org/abs/2101.06787" target="_blank"> arXiv:2101.06787 </a>]
 ...
-7. <a href="https://scholar.google.com/citations?hl=en&user=X6_u9x0AAAAJ" target="_blank"> Publications in google Scholar </a>
+8. <a href="https://scholar.google.com/citations?hl=en&user=X6_u9x0AAAAJ" target="_blank"> Publications in google Scholar </a>
 
 
 ---
