@@ -45,6 +45,7 @@ I have published scientific journals and conference proceeding papers.
 *   Optimization of the next generation of CMB missions, XIII School of Csomology: The CMB from A to Z, ( November 12 - 18, 2017 — IESC, Cargèse). [<a href="http://www.cpt.univ-mrs.fr/~cosmo/EC2017/Presentations/Seminaires/Hoang.pdf" target="_blank"> pdf </a>]  <br>
 *   My initiative: 1st Meeting of Young Vietnamese Community of Astronomy (YVCA), APC laboratory, Paris Diderot University (21-22 December 2017 Paris-France). Program: <span> <a href="https://space.usth.edu.vn/en/news/news-events/yvca-program-127.html" class="uri" target="_blank"> https://space.usth.edu.vn/en/news/news-events/yvca-program-127.html</a> </span>
 
+
 ---
 # Select publications
 
