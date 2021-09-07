@@ -18,8 +18,9 @@ After completing PhD, I won an appointment as a postdoctoral associate at Cornel
 
 ---
 # Research
+<center> <strong> <h3> Standard Cosmological Model </h3> </strong> </center> 
 <img src="/images/standardcosmologicalmodel_public.jpeg" alt="Italian Trulli" width="100%">
-Generally my research contribute to the `standard cosmological model` (see Figure) of the Universe. My research interests span both observational cosmology on `Cosmic Microwave Background (CMB)` Radiation measurement and roles of `magnetic fields` in star formation. <br>
+Generally my research contributes to the `standard cosmological model` (see Figure) of the Universe. My research interests span both observational cosmology on `Cosmic Microwave Background (CMB)` Radiation measurement and roles of `magnetic fields` in star formation. <br>
 
 Most of my work has been working on the simulation of systematic effects of CMB polarization measurement and instrumentation on superconducting `Transition Edge Sensor (TES)` for CMB experiments. <br>
 
