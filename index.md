@@ -34,7 +34,7 @@ I have published scientific journals and conference proceeding papers.
 
 * Basic Programming (C) <br>
 * Data Analysis and Visualization (Python) [<a href="https://github.com/hoangducthuong/DataAnalysis_Visualization" target="_blank"> Materials </a>] <br>
-* Mordern Cosmology  <br>
+* Mordern Cosmology <a href="https://hoangducthuong.github.io/Modern_Cosmology_lectures" target="_blank"> [The course.] </a> <br>
 * Practical work: Advanced electronic system
 
 ---
