@@ -9,7 +9,6 @@ _Definition of me: Big Bang theory, Inflation, Cosmic Microwaves Background (CMB
 ---
 # About
 
-Currently, I am a lecturer/researcher in the Department of Space and Applications (DSA) at University of Science and Technology of Hanoi (USTH) since January 1, 2021. 
 I obtained Ph.D in Physics of the Universe from AstroParticle and Cosmology (APC) laboratory, University of Paris, in 2018. 
 After completing PhD, I won an appointment as a postdoctoral associate at Cornell University.
 <img src="/images/IMG_7931.jpg" alt="Italian Trulli" width="100%">
