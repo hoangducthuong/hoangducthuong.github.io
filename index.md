@@ -9,7 +9,7 @@ _Definition of me: Big Bang theory, Inflation, Cosmic Microwaves Background (CMB
 ---
 # About
 
-<img src="/images/IMG_7931.jpg" alt="Italian Trulli" width="45%" style="float: left">
+<img src="/images/IMG_7931.jpg" alt="Italian Trulli" width="40%" style="float: left">
 Currently, I am a postdoc at Kavli Institute for the Physics and Mathematics of the Universe (Kavli IPMU), The University of Tokyo. I obtained Ph.D in Physics of the Universe from AstroParticle and Cosmology (APC) laboratory, University of Paris, in 2018. After completing PhD, I won an appointment as a postdoctoral associate at Cornell University.
 
 <!-- [Branching](https://hoangducthuong.github.io/images/IMG_7931_web.jpg) -->
