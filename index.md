@@ -31,7 +31,7 @@ On the other hand, I am also investigating data analysis of `magnetic fields` in
 I have been contributing to several CMB projects QUBIC, Simons Observatory, CMB-S4, and LiteBIRD satellite.
 
 I have published scientific journals and conference proceeding papers.
-<a href="https://hoangducthuong.github.io/research" target="_blank"> > Read more about my Research.`</a>
+<a href="https://hoangducthuong.github.io/research" target="_blank"> > Read more about my Research.</a>
 
 ---
 
@@ -39,7 +39,7 @@ I have published scientific journals and conference proceeding papers.
 
 * Basic Programming (C) <br>
 * Data Analysis and Visualization (Python) [<a href="https://github.com/hoangducthuong/DataAnalysis_Visualization" target="_blank"> Materials </a>] <br>
-* Mordern Cosmology [ <a href="https://drive.google.com/drive/folders/1-yxdJWTz2af9D_O1Zli_MoZjhImniwme?usp=sharing" target="_blank"> Materials </a> ] <!-- [ <a href="https://hoangducthuong.github.io/modern_cosmology" target="_blank"> page </a> ] -->` <br>
+* Mordern Cosmology [ <a href="https://drive.google.com/drive/folders/1-yxdJWTz2af9D_O1Zli_MoZjhImniwme?usp=sharing" target="_blank"> Materials </a> ] <!-- [ <a href="https://hoangducthuong.github.io/modern_cosmology" target="_blank"> page </a> ] --> <br>
 * Practical work: Advanced electronic system
 
 ---
@@ -56,7 +56,7 @@ I have published scientific journals and conference proceeding papers.
 
 # Select publications
 
-1. **Thuong D. Hoang**, Tomotake Matsumura, Ryota Takaku, Takashi Hasebe, Tommaso Ghigna, Nobuhiko Katayama, Yuki Sakurai, Kunimoto Komatsu, Teruhito Iida, Yurika Hoshino, Shinya Sugiyama, Hirokazu Ishino, _Testbed preparation of a small prototype polarization modulator for LiteBIRD Low-Frequency Telescope_, <a href="https://doi.org/10.1117/12.2630653" target="_blank">` SPIE `</a>
+1. **Thuong D. Hoang**, Tomotake Matsumura, Ryota Takaku, Takashi Hasebe, Tommaso Ghigna, Nobuhiko Katayama, Yuki Sakurai, Kunimoto Komatsu, Teruhito Iida, Yurika Hoshino, Shinya Sugiyama, Hirokazu Ishino, _Testbed preparation of a small prototype polarization modulator for LiteBIRD Low-Frequency Telescope_, <a href="https://doi.org/10.1117/12.2630653" target="_blank"> SPIE</a>
 2. **Thuong Duc Hoang**, Nguyen Bich Ngoc, Pham Ngoc Diep, Le Ngoc Tram, Thiem Hoang, Wanggi Lim, Dieu D. Nguyen, Ngan Le, Nguyen Thi Phuong, Nguyen Fuda, Tuan Van Bui, Kate Pattle, Gia Bao Truong Le, Hien Phan, and Nguyen Chau Giang, _Studying magnetic fields and dust in M17 using polarized thermal dust emission observed by SOFIA/HAWC+_. <a href="http://arxiv.org/abs/2108.10045" target="_blank"> arxiv:2108.10045 </a> ; <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ac5abf" target="_blank"> ApJ </a>
 3. **Duc Thuong Hoang**, Guillaume Patanchon, Martin Bucher, Tomotake Matsumura, Ranajoy Banerji, Hirokazu Ishino, Masashi Hazumi, and Jacques Delabrouille, _Bandpass mismatch error for satellite CMB experiments I: estimating the spurious signal_. <a href="https://arxiv.org/abs/1706.09486" target="_blank"> arXiv:1706.09486 </a>; <a href="https://iopscience.iop.org/article/10.1088/1475-7516/2017/12/015" target="_blank"> JCAP </a>
 4. **Duc Thuong Hoang**, _Evaluating the level of the bandpass mismatch systematic effect for the future CMB satellites_, 53rd Rencontres de Moriond. <a href="https://hal.archives-ouvertes.fr/hal-02946210" target="_blank"> hal-02946210 </a>
