@@ -31,7 +31,7 @@ On the other hand, I am also investigating data analysis of `magnetic fields` in
 I have been contributing to several CMB projects QUBIC, Simons Observatory, CMB-S4, and LiteBIRD satellite.
 
 I have published scientific journals and conference proceeding papers.
-<a href="https://hoangducthuong.github.io/research" target="_blank">` > Read more about my Research.`</a>
+<a href="https://hoangducthuong.github.io/research" target="_blank"> > Read more about my Research.`</a>
 
 ---
 
