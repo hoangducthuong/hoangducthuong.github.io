@@ -12,8 +12,6 @@ tags: []
 # Modern Cosmology
 
 
-
-
 ---
 # Lectures
 
