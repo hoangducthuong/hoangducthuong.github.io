@@ -29,7 +29,7 @@
 <style>
 /* style for menu */
 div.scrollmenu {
-  background-color: rgb(36, 85, 88);  /* Menu color  */
+  background-color: rgb(0, 0, 0);  /* Menu color  */
   overflow: auto;
   white-space: nowrap;
 }
@@ -44,6 +44,18 @@ div.scrollmenu a {
 
 div.scrollmenu a:hover {
   background-color: #777;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
 }
 </style>
 
@@ -89,6 +101,7 @@ div.scrollmenu a:hover {
     padding: 20px;
   }
   </style>
+
 </head>
 
 
@@ -107,9 +120,14 @@ div.scrollmenu a:hover {
 <h3>  <strong> Course Description </strong> </h3>
 
 <table class="center">
+  <tr> 
+    <th> iterm</th>
+    <th> Description</th>
+  </tr>
+
   <tr>
-    <th>Time</th>
-    <th>30h (lecture) + 6h(tutorial)</th>
+    <td>Time</td>
+    <td>30h (lecture) + 6h(tutorial)</td>
   </tr>
 
   <tr>
@@ -168,12 +186,15 @@ div.scrollmenu a:hover {
 
 </table>
 
+
 <hr>
 <h3 id="section-1" class="unnumbered">
-  <p>
-    <strong>Course contents </strong>
+  <p> <strong>Course contents </strong>
   </p> 
 </h3>
+
+
+
 
 
 
@@ -205,5 +226,6 @@ div.scrollmenu a:hover {
 </footer>
 
 </body>
+
 
 </html> 
