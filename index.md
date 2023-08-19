@@ -47,6 +47,7 @@ I have published scientific journals and conference proceeding papers.
 
 # Talks
 
+* LiteBIRD Low-Frequency Telescope (LFT) Polarization Modulation Unit (PMU), CMBxLSS Kyoto 2023, [<a href="https://hoangducthuong.github.io/slides/CMBxLSS_LiteBIRD_LFT_PMU_A0_v3.1_Thuong_Hoang.pdf" target="_blank"> poster </a>] 
 * Studying magnetic fields toward M17 cloud using dust polarization taken with SOFIA/HAWC+, Magnetic Fields and the Structure of the Filamentary Interstellar Medium (22- 25 June 2021), SOFIA Science series. [<a href="https://www.youtube.com/watch?v=OacVw13wG_4 " target="_blank"> pre-recored talk </a>], [<a href="https://hoangducthuong.github.io/slides/A_2021_Thuong_HOANG_full_slides.pdf" target="_blank"> pdf </a>]
 * CMB instrumentation and detectors, <a href="https://euraxess.ec.europa.eu/" target="_blank"> Euraxess </a> Webinar on CMB Inflate "Contributing to the understanding of the origins of the Universe, [<a href="https://hoangducthuong.github.io/slides/CMB_INFLATE_HDT.pdf" target="_blank"> pdf </a>]
 * The Simons Observatory and future ground-based CMB measurements, Rencontres du Vietnam, Cosmology (August 019 - Qui Nhon, Vietnam). [<a href="http://vietnam.in2p3.fr/2019/Cosmology/transparencies/4_thursday/1_morning/2_hoang.pdf" target="_blank"> pdf </a>]
