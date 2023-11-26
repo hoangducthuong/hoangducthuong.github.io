@@ -1,16 +1,16 @@
 ---
 layout: default
 ---
-**Hi there, I am Thuong Duc HOANG, a cosmologist and astrophysicist**
+**Hi there, I am Thuong Duc HOANG, a cosmologist**
 
-_self-description: Big Bang theory, Inflation, Cosmic Microwaves Background (CMB), superconducting Transision Edge Sensor (TES), Half-wave plate, Cryogenics system, Magnetic fields and star formation, Dust polarization_
+_self-description: Cosmic Microwaves Background (CMB), Big Bang theory, Inflation, superconducting Transision Edge Sensor (TES), Half-wave plate, Cryogenics system, Magnetic fields and star formation, Dust polarization_
 
 ---
 
 # About
 
 <img src="/images/IMG_7931.jpg" alt="Thuong Hoang" width="40%" style="float: left">
-Currently (2023), I am a postdoc at Kavli Institute for the Physics and Mathematics of the Universe (Kavli IPMU), The University of Tokyo. I obtained Ph.D in Physics of the Universe from AstroParticle and Cosmology (APC) laboratory, University of Paris, in 2018. After completing PhD, I did a postdoctoral associate at Cornell University.
+Currently (2023), I am a postdoc at BICEP/Keck group at University of Minnesota. I obtained Ph.D in Physics of the Universe from AstroParticle and Cosmology (APC) laboratory, University of Paris, in 2018. After completing PhD, I did postdoctoral research at Cornell University, Kavli IPMU-University of Tokyo.
 
 <!-- [Branching](https://hoangducthuong.github.io/images/IMG_7931_web.jpg) -->
 
@@ -39,20 +39,21 @@ I have published scientific journals and conference proceeding papers.
 
 * Basic Programming (C) <br>
 * Data Analysis and Visualization (Python) [<a href="https://github.com/hoangducthuong/DataAnalysis_Visualization" target="_blank"> Materials </a>] <br>
-* Mordern Cosmology [ <a href="https://hoangducthuong.github.io/modern_cosmology" target="_blank"> course </a> ] 
- <br>
-* Practical work: Advanced electronic system
+* Mordern Cosmology [ <a href="https://hoangducthuong.github.io/modern_cosmology" target="_blank"> course </a> ]
+  <br>
+* Advanced electronic system (Practical work)
 
 ---
 
 # Talks
 
-* LiteBIRD Low-Frequency Telescope (LFT) Polarization Modulation Unit (PMU), CMBxLSS Kyoto 2023, [<a href="https://hoangducthuong.github.io/slides/CMBxLSS_LiteBIRD_LFT_PMU_A0_v3.1_Thuong_Hoang.pdf" target="_blank"> poster </a>] 
+* LiteBIRD Low-Frequency Telescope (LFT) Polarization Modulation Unit (PMU), CMBxLSS Kyoto 2023, [<a href="https://hoangducthuong.github.io/slides/CMBxLSS_LiteBIRD_LFT_PMU_A0_v3.1_Thuong_Hoang.pdf" target="_blank"> poster </a>]
 * Studying magnetic fields toward M17 cloud using dust polarization taken with SOFIA/HAWC+, Magnetic Fields and the Structure of the Filamentary Interstellar Medium (22- 25 June 2021), SOFIA Science series. [<a href="https://www.youtube.com/watch?v=OacVw13wG_4 " target="_blank"> pre-recored talk </a>], [<a href="https://hoangducthuong.github.io/slides/A_2021_Thuong_HOANG_full_slides.pdf" target="_blank"> pdf </a>]
 * CMB instrumentation and detectors, <a href="https://euraxess.ec.europa.eu/" target="_blank"> Euraxess </a> Webinar on CMB Inflate "Contributing to the understanding of the origins of the Universe, [<a href="https://hoangducthuong.github.io/slides/CMB_INFLATE_HDT.pdf" target="_blank"> pdf </a>]
 * The Simons Observatory and future ground-based CMB measurements, Rencontres du Vietnam, Cosmology (August 019 - Qui Nhon, Vietnam). [<a href="http://vietnam.in2p3.fr/2019/Cosmology/transparencies/4_thursday/1_morning/2_hoang.pdf" target="_blank"> pdf </a>]
 * Optimization of the next generation of CMB missions, XIII School of Csomology: The CMB from A to Z, ( November 12 - 18, 2017 — IESC, Cargèse). [<a href="http://www.cpt.univ-mrs.fr/~cosmo/EC2017/Presentations/Seminaires/Hoang.pdf" target="_blank"> pdf </a>]  <br>
-* My initiative: 1st Meeting of Young Vietnamese Community of Astronomy (YVCA), APC laboratory, Paris Diderot University (21-22 December 2017 Paris-France). Program: <span> <a href="https://space.usth.edu.vn/en/news/news-events/yvca-program-127.html" class="uri" target="_blank"> https://space.usth.edu.vn/en/news/news-events/yvca-program-127.html </a>
+* My initiative: 1st Meeting of Young Vietnamese Community of Astronomy (YVCA), APC laboratory, Paris Diderot University (21-22 December 2017 Paris-France). 
+<!--- Program: <span> <a href="https://space.usth.edu.vn/en/news/news-events/yvca-program-127.html" class="uri" target="_blank"> https://space.usth.edu.vn/en/news/news-events/yvca-program-127.html </a> -->
 
 ---
 
@@ -75,7 +76,7 @@ I have published scientific journals and conference proceeding papers.
 # Ph.D manuscript (2019)
 
 Title: Optimization of future projects for the measurement of
-Cosmic Microwave Background polarization [ <a href="http://theses.md.univ-paris-diderot.fr/HOANG_Duc_Thuong_1_Complete_20181217.pdf" target="_blank"> Manuscript (pdf) </a> ], [ <a href="https://hoangducthuong.github.io/slides/HDT_thesis_presentation_official.pdf" target="_blank"> Presentation (pdf) </a> ]
+Cosmic Microwave Background polarization [ <a href="https://theses.hal.science/tel-02494060v1" target="_blank"> Manuscript (pdf) </a> ], [ <a href="https://hoangducthuong.github.io/slides/HDT_thesis_presentation_official.pdf" target="_blank"> Presentation (pdf) </a> ]
 
 * I: Introduction of the thesis
 * II: Introduction to cosmology

@@ -20,102 +20,358 @@ description: A scientific blog is coming
 <div class="blurb">
 	<h1>A scientific blog is coming</h1>
 </div>
+
+
+
+   .item h3 {
+      font-size: 22px;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      color: #813131;
+    }
+
+    .item h2 {
+      font-size: 22px;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      color: #813131;
+    }
+  
+
+
 -->
 
+<!---  #more {display: none;} -->
 <head>
   <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/default.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
+
+    <style>
+      .container {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 80%;
+      margin: auto;
+      background: #f5f5f5;
+      padding: 20px 40px;
+    }
+
+    .item p {
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      line-height: 1.3;
+      font-weight: 300;
+      font-size: 16px;
+      word-spacing: 1.6px;
+    }
+
+    .hidden-content {
+      display: none;
+    }
+
+    .read_more {
+      color: #61b1f1;
+      text-decoration: none;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .read_more:hover {
+      color: #488ad6;
+    }
+    .hidden-readmore {
+      display: none;
+    }
+    .read_less {
+      color: #0f60bd;
+      text-decoration: none;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    </style> 
+
+
 </head>
 
 
-
-
 <body>
-  <h2> How to make an RGB image using <a href="https://aplpy.readthedocs.io/en/stable/" target="_blank"> aplpy</a> package </h2>
-  This is an example of making a RGB image using aplpy package. The data is archived from the Spitzer Galactic Legacy Infrared Midplane Survey Extraordinaire (<a href="https://irsa.ipac.caltech.edu/data/SPITZER/GLIMPSE/" target="_blank">GLIMPSE</a>).
-  We will choose 3 over 4 channels data to generate an RGB optical-liked image of M17 region (Omega Nebula/Swan Nebula/Horseshoe Nebula)
+
+  <div class="container"> 
+
+    <div class="item">
+      <h2>CMB background</h2>
+      <p>This article is a historical background overview of CMB science.
+
+      <p>The CMB prediection by Ralph Alpher (George Gamow's Ph.D.) and Robert Herman in about 1948. 
+        This is a list of historical paperss from 1965 to 2018 which may provide useful background in 
+        CMB (reference BICEP's internal group!).
+      </p>
+        <!--- 
+        <a id="read_more_2" onclick="readMoreFun('hide_seek-2',this.id)" class="read_more">...Read More</a></p>
+        <div class="hide_seek-2 hidden-content">
+        -->
+          <dl>
+          <dt>1965: The accidental discovery by Penzias and Wilson using a horn antenna at Bell laboratory</dt>
+          <a href="https://ui.adsabs.harvard.edu/abs/1965ApJ...142..419P/abstract">
+          <dd>A Measurement of Excess Antenna Temperature at 4080 Mc/s</dd>
+          <dd>A. A. Penzias and R. W. Wilson, <i>ApJ</i> <b>142</b>, 419(1965).</dd>
+          </a>
+          
+
+          <dt>1981: A. Guth's initial paper of an inflation universe</dt>
+          <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.23.347">
+          <dd>Inflationary universe: A possible solution to the horizon and flatness problems</dd>
+          <dd>A. Guth, <i>Phys. Rev. D</i> <b>23</b>, 347 (1981).</dd>
+          </a>
+        
+          <dt>1982: Linde's initial paper on inflation, addressing some of the
+            self-admitted problems with Guth's model</dt>
+          <a href="https://www.sciencedirect.com/science/article/pii/0370269382912199?via%3Dihub">
+            <dd>A new inflationary universe scenario: A possible
+            solution of the horizon, flatness, homogeneity, isotropy,
+              and primordial monopole problems</dd>
+            <dd>A.D. Linde, <i>Phys. Lett. B</i> <b>108</b>, 389 (1982).</dd>
+          </a>
+
+      
+          <dt>1992: First detection of temperature anisotropy in the CMB by COBE satellite. COBE also measureed the spectrum of CMB as a black body with temperature of 2.725 K. </dt>
+          <a href="https://ui.adsabs.harvard.edu/abs/1992ApJ...396L...1S/abstract">
+            <dd>Structure in the COBE Differential Microwave Radiometer
+              First-Year Maps</dd>
+            <dd>G. Smoot et al., <i>ApJL</i> <b>396</b>, L1 (1992).</dd>
+          </a>
+    
+
+          <dt>1997: Seljak and Zaldarriaga's paper initially describing the E
+            and B decomposition of CMB polarization as a way of probing
+            for primordial gravitational waves from the Big Bang, starting the time for CMB polarization measurement experiment.</dt>
+          <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.78.2054">
+            <dd>Signature of Gravity Waves in the Polarization of the
+              Microwave Background</dd>
+            <dd>U. Seljak and M. Zaldarriaga,
+              <i>Phys. Rev. Lett.</i> <b>78</b>, 2054 (1997).</dd>
+          </a>
+ 
+        
+          <dt>1997: Kamionksowski, Kosowsky, and Stebbins' paper also
+            deriving the E and B basis, in a slightly different way than
+              Seljak and Zaldarriaga, published alongside said paper</dt>
+          <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.78.2058">
+            <dd>A Probe of Primordial Gravity Waves and Vorticity</dd>
+            <dd>M. Kamionkowski, A. Kosowsky, A Stebbins,
+              <i>Phys. Rev. Lett.</i> <b>78</b>, 2058 (1997).</dd>
+          </a>
+
+          <dt>2002: First detection of polarization in the CMB E modes by DASI</dt>
+          <a href="https://www.nature.com/articles/nature01269">
+            <dd>Detection of polarization in the cosmic microwave background using DASI</dd>
+            <dd>J.M. Kovac et al., <i>Nature</i> <b>420</b>, 772 (2002).</dd>
+          </a>
+        
+
+          <dt>2014: BICEP claim CMB B mode (tensor-to-scalar ratio) r < 0.2 detection, but later join analysis with Planck confirm there has contamination from foreground</dt>
+          <a href="https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.112.241101">
+            <dd>Detection of B-Mode Polarization at Degree Angular Scales by BICEP2</dd>
+            <dd>BICEP <i> Rev. Lett. 112, 241101, 2014</i> </dd>
+          </a>
+        
+
+
+          <dt>2018: Planck Satellite's latest (2018) results on cosmological
+            parameters</dt>
+          <a href="">
+            <dd>Planck 2018 results. VI. Cosmological Parameters</dd>
+            <dd>Planck Collaboration et al., <i>A&A</i> <b>641</b>, A6
+              (2020).</dd>
+          </a>
   
+        
+          <dt>2018: Planck Satellite's latest (2018) constraints on inflation
+            (using BICEP/Keck's "BK15" data set)</dt>
+          <a href="">
+            <dd>Planck 2018 results. X. Constraints on inflation</dd>
+            <dd>Planck Collaboration et al., <i>A&A</i> <b>641</b>, A10
+              (2020).</dd>
+          </a>
+     
+     
+          <dt>2022: The upper limit on tensor-to-scalar r < 0.032 (95% CL).
+            using BICEP and Planck data</dt>
+          <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.105.083524">
+            <dd>Improved limits on the tensor-to-scalar ratio using BICEP and 
+              Planck data</dd>
+            <dd>M. Tristram, et al., <i>Phys. Rev. D 105, 083524 – Published 26 April 2022</i> 
+            </dd>
+          </a>
+          
+        
+          <dt>A pedagogical introduction to CMB polarization. Includes
+            a description of how polarization is generated during
+            recombination, a breakdown of E and B and how they relate to Q
+            and U, etc.</dt>
+          <a href="https://arxiv.org/pdf/astro-ph/9706147.pdf">
+            <dd>A CMB Polarization Primer</dd>
+            <dd>W. Hu and M. White, <i>New Astron.</i> <b>2</b>, 323
+              (1997).</dd>
+          </a>
+    
+          <dt>A nice review on the CMB polarization <B-modes></B-modes> in 2016, </dt>
+            <a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081915-023433">
+              <dd> The Quest for B Modes from Inflationary Gravitational Waves </dd>  
+              <dd> Marc Kamionkowski and Ely D. Kovetz <i>annual reviews</i> </dd>
+            </a>
 
-  <h4>1. Read the data </h4>
-  <pre>
-    <code class="python">
-    import aplpy
-    import matplotlib.pyplot as plt
-    from pylab import arange, show, cm
-    cmap='rainbow'
-
-    # Galactic Legacy Infrared Midplane Survey Extraordinaire (GLIMPSE)
-    fname1 = '/GLM_01550-0075_mosaic_I1.fits'   # chanel 1: 3.6 \mu m
-    fname2 = '/GLM_01550-0075_mosaic_I2.fits'   # chanel 2: 4.5 \mu m
-    fname3 = '/GLM_01550-0075_mosaic_I3.fits'   # chanel 3: 6 \mu m
-    fname4 = '/GLM_01550-0075_mosaic_I4.fits'   # chanel 4: 8 \mu m
-    </code>
-  </pre>
-
-  <h4>2. Make a cube data from 3 input files </h4>
-  <pre>
-    <code class="python">
-    # Make RGB cube (3 dimensional data); This will have ouput file: M17_GLM_Spitzer_cube_data_2d.fits
-    aplpy.make_rgb_cube([fname4, fname2, fname1],'M17_GLM_Spitzer_cube_data.fits')
-    </code>
-  </pre>
+          </dl>
 
 
-  <h4>3. Make RGB image </h4>
-  <pre>
-    <code class="python">
-      # Make RGB image - you can specify color parameters here!
-      aplpy.make_rgb_image('M17_GLM_Spitzer_cube_data.fits','M17_GLM_Spitzer_cube_data.png', make_nans_transparent=True) #, stretch_r='arcsinh', stretch_g='arcsinh', stretch_b='arcsinh')
-      
-      # Customize parameters
-      aplpy.make_rgb_image('M17_GLM_Spitzer_cube_data.fits','M17_GLM_Spitzer_cube_data.png',
-                            stretch_r='arcsinh', vmid_r=0.01, stretch_g='arcsinh', vmid_g=0.06,
-                            stretch_b='arcsinh', vmid_b=0.06, make_nans_transparent=True)
-    </code>
-  </pre>
+        <p>
+        There are many good books in the field,
+        <dl> 
+          <a href="https://www.amazon.com/Introduction-Modern-Cosmology-Andrew-Liddle/dp/1118502140/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=">
+          <dd>An Introduction to Modern Cosmology </dd>
+          <dd>Andrew Liddle <i>3rd Edition</i></dd>
+        </a>
+          <dt>This is a good book for the beginner, it covers all the important aspect in Cosmology</dt>
 
 
-  <h4>4. Plot and save the RGB image </h4>
-  <pre>
-    <code class="python">
-      fig = plt.figure(figsize=(16, 12) )
-
-      f = aplpy.FITSFigure('M17_GLM_Spitzer_cube_data_2d.fits',figure=fig)
-      
-      # Apply grayscale mapping of image
-      #f.show_grayscale()
-      #f.show_colorscale(cmap='rainbow')
-      
-      f.show_rgb('M17_GLM_Spitzer_cube_data.png')
-      
-      #f.tick_labels.set_font(size='xx-small')
-      #f.axis_labels.set_font(size='x-small')
-      f.ticks.hide()
-      f.tick_labels.hide()
-      f.axis_labels.hide()
-      
-      #f.axis_labels.show()
-      #f.tick_labels.show()
-      #f.tick_labels.show_x()
-      #f.ticks.show()
-      #f.ticks.show_x()
-      f.frame.set_color('white')
-      
-      #f.axis_labels.set_xtext('Right Ascension [J2000]')
-      #f.axis_labels.set_ytext('Declination [J2000]')
-      
-      plt.savefig('M17_spitzer_GLM_data.pdf', bbox_inches='tight')
-      plt.savefig('M17_spitzer_GLM_data.png', dpi=800, bbox_inches='tight')      
-    </code>
-  </pre>
-
+          <a href="https://www.amazon.com/Introduction-Cosmology-Barbara-Ryden/dp/1107154839/ref=pd_bxgy_img_d_sccl_1/137-6610028-2027200?pd_rd_w=b15WP&content-id=amzn1.sym.7746dde5-5539-43d2-b75f-28935d70f100&pf_rd_p=7746dde5-5539-43d2-b75f-28935d70f100&pf_rd_r=0WS0W7GFXTEX7RQ6XR3E&pd_rd_wg=zJZ5w&pd_rd_r=ae6346ab-92a7-4d88-9c89-5d337afe0d5c&pd_rd_i=1107154839&psc=1" >
+            <dd>Introduction to Cosmology </dd>
+            <dd>Barbara Ryden <i>2nd Edition</i></dd>
+          </a>
+            <dt>This books describe detail calculation of Universe models, problem and solutions to the Big Bang Universe.</dt>
   
-  <h4>The output of the script</h4>
-<img src="/images/M17_spitzer_GLM_data_web.jpg" width="100%">
+         <a href="https://www.amazon.com/Modern-Cosmology-Scott-Dodelson/dp/0128159480/ref=m_crc_dp_lf_d_t1_sccl_2_3/137-6610028-2027200?pd_rd_w=XXEic&content-id=amzn1.sym.76a0b561-a7b4-41dc-9467-a85a2fa27c1c&pf_rd_p=76a0b561-a7b4-41dc-9467-a85a2fa27c1c&pf_rd_r=EWD7TPMKAN5B76TZD5BV&pd_rd_wg=TPsot&pd_rd_r=56c76008-a9f4-4055-a374-a1b787350872&pd_rd_i=0128159480&psc=1">
+          <dd>Modern Cosmology </dd>
+          <dd>Scott Dodelson, Fabian Schmidt <i>2nd Edition</i></dd>
+        </a>
+          <dt></dt>
 
-  
+
+
+        </dl>
+
+        </p>
+
+          <!--- 
+          <a onclick="readMoreFun('hide_seek-2','read_more_2')" class="read_less">...Read Less</a></p>
+        
+
+        </div> 
+        -->
+
+    </div>
+
+
+    <div class="item">
+      <h2>How to make an RGB image using <a href="https://aplpy.readthedocs.io/en/stable/" target="_blank"> aplpy</a> package</h2>
+      <p>This is an example of making a RGB image using aplpy package. 
+        The data is archived from the Spitzer Galactic Legacy Infrared Midplane Survey Extraordinaire 
+        (<a href="https://irsa.ipac.caltech.edu/data/SPITZER/GLIMPSE/" target="_blank">GLIMPSE</a>).
+        We will choose 3 over 4 channels data to generate an RGB optical-liked image of M17 region 
+        (Omega Nebula/Swan Nebula/Horseshoe Nebula)
+         <a id="read_more_1" onclick="readMoreFun('hide_seek-1',this.id)" class="read_more">...Read More</a>
+      </p>
+      
+      <div class="hide_seek-1 hidden-content">
+        <p>
+          <h4>1. Read the data </h4>
+          <pre>
+            <code class="python">
+            import aplpy
+            import matplotlib.pyplot as plt
+            from pylab import arange, show, cm
+            cmap='rainbow'
+        
+            # Galactic Legacy Infrared Midplane Survey Extraordinaire (GLIMPSE)
+            fname1 = '/GLM_01550-0075_mosaic_I1.fits'   # chanel 1: 3.6 \mu m
+            fname2 = '/GLM_01550-0075_mosaic_I2.fits'   # chanel 2: 4.5 \mu m
+            fname3 = '/GLM_01550-0075_mosaic_I3.fits'   # chanel 3: 6 \mu m
+            fname4 = '/GLM_01550-0075_mosaic_I4.fits'   # chanel 4: 8 \mu m
+            </code>
+          </pre>
+        
+          <h4>2. Make a cube data from 3 input files </h4>
+          <pre>
+            <code class="python">
+            # Make RGB cube (3 dimensional data); This will have ouput file: M17_GLM_Spitzer_cube_data_2d.fits
+            aplpy.make_rgb_cube([fname4, fname2, fname1],'M17_GLM_Spitzer_cube_data.fits')
+            </code>
+          </pre>
+        
+        
+          <h4>3. Make RGB image </h4>
+          <pre>
+            <code class="python">
+              # Make RGB image - you can specify color parameters here!
+              aplpy.make_rgb_image('M17_GLM_Spitzer_cube_data.fits','M17_GLM_Spitzer_cube_data.png', make_nans_transparent=True) #, stretch_r='arcsinh', stretch_g='arcsinh', stretch_b='arcsinh')
+              
+              # Customize parameters
+              aplpy.make_rgb_image('M17_GLM_Spitzer_cube_data.fits','M17_GLM_Spitzer_cube_data.png',
+                                    stretch_r='arcsinh', vmid_r=0.01, stretch_g='arcsinh', vmid_g=0.06,
+                                    stretch_b='arcsinh', vmid_b=0.06, make_nans_transparent=True)
+            </code>
+          </pre>
+        
+        
+          <h4>4. Plot and save the RGB image </h4>
+          <pre>
+            <code class="python">
+              fig = plt.figure(figsize=(16, 12) )
+        
+              f = aplpy.FITSFigure('M17_GLM_Spitzer_cube_data_2d.fits',figure=fig)
+              
+              # Apply grayscale mapping of image
+              #f.show_grayscale()
+              #f.show_colorscale(cmap='rainbow')
+              
+              f.show_rgb('M17_GLM_Spitzer_cube_data.png')
+              
+              #f.tick_labels.set_font(size='xx-small')
+              #f.axis_labels.set_font(size='x-small')
+              f.ticks.hide()
+              f.tick_labels.hide()
+              f.axis_labels.hide()
+              
+              #f.axis_labels.show()
+              #f.tick_labels.show()
+              #f.tick_labels.show_x()
+              #f.ticks.show()
+              #f.ticks.show_x()
+              f.frame.set_color('white')
+              
+              #f.axis_labels.set_xtext('Right Ascension [J2000]')
+              #f.axis_labels.set_ytext('Declination [J2000]')
+              
+              plt.savefig('M17_spitzer_GLM_data.pdf', bbox_inches='tight')
+              plt.savefig('M17_spitzer_GLM_data.png', dpi=800, bbox_inches='tight')      
+            </code>
+          </pre>
+        
+          
+          <h4>The output of the script</h4>
+        <img src="/images/M17_spitzer_GLM_data_web.jpg" width="100%">
+        </p>
+
+
+          <a onclick="readMoreFun('hide_seek-1','read_more_1')" class="read_less">...Read Less</a></p>
+      </div>
+
+    </div>
+
+
+</div>
+
+  <script>
+    function readMoreFun(param, param_id) {
+      let elements = document.getElementsByClassName(param);
+      let element_id = document.getElementById(param_id);
+      for (let i = 0; i < elements.length; i++) {
+        elements[i].classList.toggle("hidden-content");
+      }
+      element_id.classList.toggle("hidden-readmore");
+    }
+  </script>
+
 </body>
-
-
