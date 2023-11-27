@@ -11,7 +11,7 @@ layout: feed
  <id>http://hoangducthuong.github.io/blog</id>
  <author>
    <name>Hoang Duc Thuong</name>
-   <email>hoang-duc.thuong@usth.edu.vn</email>
+   <email>hoangthuong.hust@gmail.com</email>
  </author>
 
  {% for post in site.posts %}
