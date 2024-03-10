@@ -27,16 +27,6 @@ description: My research experiences in simulation, data analysis, and instrumen
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
 
-  <style>
-  figcaption {
-    background-color: white;
-    color: black;
-    font-style: italic;
-    font-size: smaller;
-    padding: 2px;
-    text-align: center;
-  }
-  </style>
 
 <style>
   /* A style for the photo gallery */
@@ -51,6 +41,15 @@ description: My research experiences in simulation, data analysis, and instrumen
   
   img {
     vertical-align: middle;
+  }
+
+  figcaption {
+    background-color: white;
+    color: black;
+    font-style: italic;
+    font-size: smaller;
+    padding: 2px;
+    text-align: center;
   }
   
   /* Position the image container (needed to position the left and right arrows) */
@@ -180,19 +179,19 @@ I am curious in roles magnetic fields and star formation processes.
 <br> 
 Summary of my experiences:
 <div> 
-   <li> <a href="#prototypePMU"> <strong>Experimental:</strong> Desmonstration of a small prototype polarization modulator unit (PMU) for LiteBIRD low-frequency telescope.</a>
+   <li> <a href="#prototypePMU"> <strong>Experimental (LiteBIRD):</strong> Desmonstration of a small prototype polarization modulator unit (PMU) for LiteBIRD low-frequency telescope.</a>
     </li>
     <li> <a href="#magnetic"> <strong>Data analysis:</strong> Measurement of magnetic fields in the plane-of-sky toward M17 cloud using SOFIA/HAWC+ thermal dust polarization at 154 micromets.</a>
     </li>
-    <li> <a href="#SO_test"> <strong>Experimental:</strong> Calibrated Transition Edge Sensor (TES) focal plane for Simons Observatory.</a>
+    <li> <a href="#SO_test"> <strong>Experimental (SO):</strong> Calibrated Transition Edge Sensor (TES) focal plane for Simons Observatory.</a>
     </li>
-     <li><a href="#litebird"> <strong>Simulation:</strong> Study systematic effects for LiteBIRD CMB satellite.</a>
+     <li><a href="#litebird"> <strong>Simulation (LiteBIRD):</strong> Study systematic effects for LiteBIRD CMB satellite.</a>
     </li>
-     <li> <a href="#qubic_tes"> <strong>Experimental and data analysis:</strong> Testbed Transition Edge Sensor (TES) array with a radioactive source for ground-based QUBIC experiment.</a>
+     <li> <a href="#qubic_tes"> <strong>Experimental and data analysis (QUBIC):</strong> Testbed Transition Edge Sensor (TES) array with a radioactive source for ground-based QUBIC experiment.</a>
     </li>
-     <li> <a href="#S4_survey"> <strong>Simulation:</strong> Study survey strategy at Atacama-Chile for CMB-S4 project.</a>
+     <li> <a href="#S4_survey"> <strong>Simulation (CMB-S4):</strong> Study survey strategy at Atacama-Chile for CMB-S4 project.</a>
     </li>
-    <li> <a href="#cosmicray"> <strong>Simulation:</strong> Cosmic ray interaction with detectors of the Planck satellite and the future mission LiteBIRD.</a>
+    <li> <a href="#cosmicray"> <strong>Simulation (Planck):</strong> Cosmic ray interaction with detectors of the Planck satellite and the future mission LiteBIRD.</a>
     </li>
 </div>
 
@@ -229,7 +228,8 @@ systematic effects in the optical data, paving the way for a full-scale model.
 <br>
 
 This study is published in the SPIE proceeding  [ <a href="https://doi.org/10.1117/12.2630653" target="_blank"> SPIE</a> ]. 
-I recored a video of the full prototype PMU system testbed in Liquid Nitrogen (77 K), the PMU is levitated and spun [ <a href="https://youtu.be/NTO6RK_66rw" target="_blank"> HWP levitation</a>]
+I recored a video of the full prototype PMU system testbed in Liquid Nitrogen (77 K), 
+the PMU is levitated and spun [ <a href="https://youtu.be/NTO6RK_66rw" target="_blank"> HWP levitation</a>]
 </p>
 
 <p>
@@ -240,11 +240,13 @@ I recored a video of the full prototype PMU system testbed in Liquid Nitrogen (7
     <h3 id="magnetic"> <strong> 6. SOFIA:</strong> Magnetic fields toward M17 cloud. </h3>
   </div>
    <img src="https://hoangducthuong.github.io/images/M17_spitzer_GLM_data_crop_morphology_vectors.png" alt="M17 Spitzer" width="100%">
-   <figcaption>Figure: An RGB image of M17 (the  Omega  Nebula or Swan  Nebbula  also known as Horseshoe Nebula in the constellation Sagittarius at a distance of 1.98 kpc) Photodissociation Region (PDR).</figcaption>
+   <figcaption>Figure: An RGB image of M17 (the  Omega  Nebula or Swan  Nebbula  also known as Horseshoe Nebula in the constellation Sagittarius at a distance of 1.98 kpc) 
+    Photodissociation Region (PDR).</figcaption>
 
 Star formation is influenced by self-gravity, turbulence, and magnetic fields (B-fields), but 
 the precise role of B-fields in the evolution of dense clouds and the star formation process
-is not fully understood. One way to study B-fields is through the measurement of dust polarization induced by aligned grains. The strength of B-fields can be estimated using the
+is not fully understood. One way to study B-fields is through the measurement of dust polarization induced by aligned grains. 
+The strength of B-fields can be estimated using the
 Davis-Chandrasekhar-Fermi (DCF) method through thermal dust polarization.
 <br>
 <br>
@@ -277,7 +279,8 @@ at the Atacama desert in Chile that aims to study the early universe, its conten
 and three 42-centimeter Small Aperture Telescopes (SATs) equipped with thousands of <b>Tran-sition Edge Sensors (TES) in a Universal Focal plane Module (UFM; see Figure)</b>. 
 The LAT is designed to measure CMB anisotropies at arcminute scales, while the SATs will observe low foreground regions in search of B-mode signals. The UFM is a 4-centimeter tall by
 15-centimeter hexagonal module with two main components: a Universal Microwave Mul-tiplexing module (UMM) and a TES detector stack array. 
-The UMM consists of 100-mK cold components (μmux chips, an RF-wafer, and a DC-wafer), including microwave Superconducting Quantum Interference Devices (SQUID) and a frequency domain multiplexing system, which drive and read out TES bolometers.
+The UMM consists of 100-mK cold components (μmux chips, an RF-wafer, and a DC-wafer), including microwave Superconducting Quantum Interference Devices (SQUID) and a frequency domain multiplexing system, 
+which drive and read out TES bolometers.
 <br>
 <br>
 I have been working on the testbed system for the readout chain and UMM of the UFM: 
@@ -416,19 +419,19 @@ Master thesis [<a href="https://hoangducthuong.github.io/slides/master_thesis.pd
 <br>
 Summary research:
 <div> 
-  <li> <a href="#prototypePMU"> <strong>Experimental:</strong> Desmonstration of a small prototype polarization modulator unit (PMU) for LiteBIRD low-frequency telescope.</a>
+  <li> <a href="#prototypePMU"> <strong>LiteBIRD(Experimental):</strong> Desmonstration of a small prototype polarization modulator unit (PMU) for LiteBIRD low-frequency telescope.</a>
   </li>
-    <li> <a href="#magnetic"> <strong> SOFIA:</strong> Measurement of magnetic fields in the plane-of-sky toward M17 cloud using thermal dust polarization at 154 micromets.</a>
+    <li> <a href="#magnetic"> <strong> SOFIA (Data analysis):</strong> Measurement of magnetic fields in the plane-of-sky toward M17 cloud using thermal dust polarization at 154 micromets.</a>
     </li>
-    <li> <a href="#SO_test"> <strong> SO:</strong> Testbed Transition Edge Sensor (TES) focal plane for Simons Observatory.</a>
+    <li> <a href="#SO_test"> <strong> SO (Experimental):</strong> Testbed Transition Edge Sensor (TES) focal plane for Simons Observatory.</a>
     </li>
-     <li><a href="#litebird"> <strong> LiteBIRD:</strong> Study systematic effects for LiteBIRD CMB satellite.</a>
+     <li><a href="#litebird"> <strong> LiteBIRD (Modelling and simulation):</strong> Study systematic effects for LiteBIRD CMB satellite.</a>
     </li>
-     <li> <a href="#qubic_tes"> <strong> QUBIC:</strong> Calibrated Transition Edge Sensor (TES) array with a radioactive source for ground-based QUBIC experiment.</a>
+     <li> <a href="#qubic_tes"> <strong> QUBIC (Experimental and data analysis):</strong> Calibrated Transition Edge Sensor (TES) array with a radioactive source for ground-based QUBIC experiment.</a>
     </li>
-     <li> <a href="#S4_survey"> <strong> CMB-S4:</strong> Study survey strategy at Atacama-Chile for CMB-S4 project.</a>
+     <li> <a href="#S4_survey"> <strong> CMB-S4 (Simulation):</strong> Study survey strategy at Atacama-Chile for CMB-S4 project.</a>
     </li>
-    <li> <a href="#cosmicray"><strong> Planck:</strong> Cosmic ray interaction with detectors of the Planck satellite and the future mission LiteBIRD.</a>
+    <li> <a href="#cosmicray"><strong> Planck (Modelling and Simulation):</strong> Cosmic ray interaction with detectors of the Planck satellite and the future mission LiteBIRD.</a>
     </li>
 </div>
 
@@ -446,89 +449,94 @@ Summary research:
 
 <div class="container">
   <div class="mySlides">
-    <div class="numbertext">1 / 17</div>
+    <div class="numbertext">1 / 18</div>
     <img src="https://hoangducthuong.github.io/images/thumbnail.png" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">2 / 17</div>
+    <div class="numbertext">2 / 18</div>
     <img src="https://hoangducthuong.github.io/images/rms_spectrum_pol_long.png" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">3 / 17</div>
+    <div class="numbertext">3 / 18</div>
     <img src="https://hoangducthuong.github.io/images/CMB.png" style="width:100%">
   </div>
     
   <div class="mySlides">
-    <div class="numbertext">4 / 17</div>
+    <div class="numbertext">4 / 18</div>
     <img src="https://hoangducthuong.github.io/images/M17_GLM_Spitzer_cube_arcsinh_1.png" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">5 / 17</div>
+    <div class="numbertext">5 / 18</div>
     <img src="https://hoangducthuong.github.io/images/show_steplic_region_bandD.png" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">6 / 17</div>
+    <div class="numbertext">6 / 18</div>
     <img src="https://hoangducthuong.github.io/images/history-of-the-universe-2015.jpg" style="width:100%">
   </div>
     
   <div class="mySlides">
-    <div class="numbertext">7 / 17</div>
+    <div class="numbertext">7 / 18</div>
     <img src="https://hoangducthuong.github.io/images/IMG_0598.jpeg" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">8 / 17</div>
+    <div class="numbertext">8 / 18</div>
     <img src="https://hoangducthuong.github.io/images/Planck2018_Test_Inflation.png" style="width:100%">
   </div>
   
   <div class="mySlides">
-    <div class="numbertext">9 / 17</div>
+    <div class="numbertext">9 / 18</div>
     <img src="https://hoangducthuong.github.io/images/history-universe-2013.jpg" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">10 / 17</div>
+    <div class="numbertext">10 / 18</div>
     <img src="https://hoangducthuong.github.io/images/cornell_magnetic_test.png" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">11 / 17</div>
+    <div class="numbertext">11 / 18</div>
     <img src="https://hoangducthuong.github.io/images/Universe.jpeg" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">12 / 17</div>
+    <div class="numbertext">12 / 18</div>
     <img src="https://hoangducthuong.github.io/images/NIST_feedhorn.png" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">13 / 17</div>
+    <div class="numbertext">13 / 18</div>
     <img src="https://hoangducthuong.github.io/images/NIST_feedhorn2.png" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">14 / 17</div>
+    <div class="numbertext">14 / 18</div>
     <img src="https://hoangducthuong.github.io/images/Berkeley_Sinious.png" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">15 / 17</div>
+    <div class="numbertext">15 / 18</div>
     <img src="https://hoangducthuong.github.io/images/frequency_bands.png" style="width:100%">
   </div>
 
 
   <div class="mySlides">
-    <div class="numbertext">16 / 17</div>
+    <div class="numbertext">16 / 18</div>
     <img src="https://hoangducthuong.github.io/images/standardcosmologicalmodel.jpeg" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">17 / 17</div>
+    <div class="numbertext">17 / 18</div>
     <img src="https://hoangducthuong.github.io/images/section_1.4.gif" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">18 / 18</div>
+    <img src="../images/bk18_vs_world.png" style="width:100%">
   </div>
 
 
@@ -613,6 +621,7 @@ Summary research:
 
   </div>
 </div>
+
 
 
 <script>

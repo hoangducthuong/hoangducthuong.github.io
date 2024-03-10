@@ -251,7 +251,7 @@ description: A scientific blog is coming
 
         </p>
 
-
+        <!--- 
         <p>
           There are website resource:
 
@@ -262,6 +262,9 @@ description: A scientific blog is coming
           The list of the past, current and future CMB experiments.
             
         </p>
+
+        --> 
+
           <!--- 
           <a onclick="readMoreFun('hide_seek-2','read_more_2')" class="read_less">...Read Less</a></p>
         
@@ -271,12 +274,17 @@ description: A scientific blog is coming
 
     </div>
 
+    <br>
+    <br>
     <hr>
     <hr>
     <hr>
 
+
+
     <div class="item">
       <h2>How to make an RGB image using <a href="https://aplpy.readthedocs.io/en/stable/" target="_blank"> aplpy</a> package</h2>
+
       <p>This is an example of making a RGB image using aplpy package. <br>
         The data is archived from the Spitzer Galactic Legacy Infrared Midplane Survey Extraordinaire <br>
         (<a href="https://irsa.ipac.caltech.edu/data/SPITZER/GLIMPSE/" target="_blank">GLIMPSE</a>). <br>
@@ -316,12 +324,13 @@ description: A scientific blog is coming
           <pre>
             <code class="python">
               # Make RGB image - you can specify color parameters here!
-              aplpy.make_rgb_image('M17_GLM_Spitzer_cube_data.fits','M17_GLM_Spitzer_cube_data.png', make_nans_transparent=True) #, stretch_r='arcsinh', stretch_g='arcsinh', stretch_b='arcsinh')
+              aplpy.make_rgb_image('M17_GLM_Spitzer_cube_data.fits','M17_GLM_Spitzer_cube_data.png',
+                    make_nans_transparent=True) #,stretch_r='arcsinh',stretch_g='arcsinh',stretch_b='arcsinh')
               
               # Customize parameters
               aplpy.make_rgb_image('M17_GLM_Spitzer_cube_data.fits','M17_GLM_Spitzer_cube_data.png',
-                                    stretch_r='arcsinh', vmid_r=0.01, stretch_g='arcsinh', vmid_g=0.06,
-                                    stretch_b='arcsinh', vmid_b=0.06, make_nans_transparent=True)
+                                  stretch_r='arcsinh', vmid_r=0.01, stretch_g='arcsinh', vmid_g=0.06,
+                                  stretch_b='arcsinh', vmid_b=0.06, make_nans_transparent=True)
             </code>
           </pre>
         
