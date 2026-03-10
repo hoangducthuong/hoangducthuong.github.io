@@ -9,7 +9,7 @@ _self-description: Cosmic Microwaves Background (CMB), Big Bang theory, Inflatio
 
 # About
 
-<img src="/images/IMG_7931.jpg" alt="Thuong Hoang" width="20%" style="float: left">
+<img src="/images/IMG_7931.jpg" alt="Thuong Hoang" width="15%" style="float: left">
 Currently (2023), I am a postdoc at BICEP/Keck group at University of Minnesota. I obtained Ph.D in Physics of the Universe from AstroParticle and Cosmology (APC) laboratory, University of Paris, in 2018. After completing PhD, I did postdoctoral research at Cornell University, Kavli IPMU-University of Tokyo.
 
 <!-- [Branching](https://hoangducthuong.github.io/images/IMG_7931_web.jpg) -->
