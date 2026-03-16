@@ -170,7 +170,8 @@ I am also interested in the role of magnetic fields and star formation processes
 <br> 
 Summary of my experiences:
 <div> 
-   <li> <a href="#prototypePMU"> <strong>Experimental (LiteBIRD):</strong> Demonstration of a small prototype polarization modulator unit (PMU) for LiteBIRD low-frequency telescope.</a>
+    <li> <a href="#BK"> <strong>Data analysis (BICEP):</strong> Main pipeline data analysis.</a>
+    <li> <a href="#prototypePMU"> <strong>Experimental (LiteBIRD):</strong> Demonstration of a small prototype polarization modulator unit (PMU) for LiteBIRD low-frequency telescope.</a>
     </li>
     <li> <a href="#magnetic"> <strong>Data analysis:</strong> Measurement of magnetic fields in the plane-of-sky toward M17 cloud using SOFIA/HAWC+ thermal dust polarization at 154 micromets.</a>
     </li>
@@ -190,66 +191,104 @@ Summary of my experiences:
 <hr> 
 
 
+
+
+<div class="success">
+  <h3 id="BK"> <strong> 8. BICEP:</strong> Main pipeline data analysis.</h3>
+</div>
+<center>
+  <img src="https://hoangducthuong.github.io/images/bk18_vs_world.png" alt="BK18" width="65%">
+  <figcaption>
+  Figure: Summary of CMB B-mode polarization upper limits. The black data point is BK18 result.
+  </figcaption>
+</center>
+
 <p>
-  <div class="success">
-    <h3 id="prototypePMU"> <strong> 7. LiteBIRD:</strong> Demonstration of a small prototype polarization modulator for LiteBIRD low-frequency telescope. </h3>
-  </div>
-  <center>
-   <img src="https://hoangducthuong.github.io/images/prototype_PMU_crop.png" alt="LiteBIRD PMU" width="65%">
-   <figcaption>
-    Figure: The experimental setup.
-   </figcaption>
-  </center>
-
-LiteBIRD telescopes employ polarization modulation units (PMU) using continuously rotating
-achromatic half-wave plates (HWP). The PMU is a crucial component for archiving unprecedented sensitivity by mitigating
-systematic effects, including 1/f noise. We developed a 1/10 scale prototype PMU of the LiteBIRD Low Frequency Telescope (LFT),
-which has a 5-layer achromatic HWP and a diameter of 50 mm, spanning the observational frequency range of
-34-161 GHz. The HWP is mounted on a superconducting magnetic bearing (SMB) as a rotor and levitated by a
-high-temperature superconductor (YBCO) as a stator. 
-<br>
-<br>
-  In this study, the entire PMU system was cooled to 10 K in a cryostat chamber using a 4-K
-Gifford-McMahon cooler. A coherent millimeter-wave polarized signal was passed through
-the rotating HWP, and the resulting modulated signal was detected. <b>The HWP modulated
-optical signal and rotational synchronous signals from the rotational mechanism were
-analyzed</b>. The testbed was built to integrate the broadband HWP and assess potential
-systematic effects in the optical data, paving the way for a full-scale model.
-<br>
-
-This study is published in the SPIE proceeding  [<a href="https://doi.org/10.1117/12.2630653" target="_blank"> SPIE</a>]. 
-I recorded a video of the full prototype PMU system testbed in Liquid Nitrogen (77 K), 
-the PMU is levitated and spun [<a href="https://youtu.be/NTO6RK_66rw" target="_blank"> HWP levitation</a>]
+  I am working on the BICEP/Keck main pipeline data analysis from low-level data processing to the extraction of final cosmological parameters.
+  My low-level data reduction work has focused on the telescope and detector pointing for making maps. 
+  I reproduce time-order data (TOD), detector pairmaps, and CMB maps, then compute correlations between the BICEP/Keck maps and 
+  equivalent Planck reference maps to estimate shifts in telescope and detector pointing. 
+  The telescope pointing systematic effect can be fixed 
+  by adjusting the pointing model derived from star cameras observations. 
+  Detector pointing is constructed based on the hardware configuration, such as per-tile or per-receiver parameters. 
+  I have implemented the pointing analysis for all BICEP/Keck observed seasons form 2010 to 2025. 
 </p>
 
 <p>
-  <div class="success">
-    <h3 id="magnetic"> <strong> 6. SOFIA:</strong> Magnetic fields toward M17 cloud. </h3>
-  </div>
-  <center>
-   <img src="https://hoangducthuong.github.io/images/M17_spitzer_GLM_data_crop_morphology_vectors.png" alt="M17 Spitzer" width="65%">
-   <figcaption>Figure: An RGB image of M17 (the  Omega  Nebula or Swan  Nebbula  also known as Horseshoe Nebula) in the constellation Sagittarius at a distance of 1.98 kpc, 
-    showing the Photodissociation Region (PDR).</figcaption>
-  </center>
+I have been mainly working to lead the map-making process in the mainline analysis. 
+I have generated all science maps for the BICEP/Keck observing seasons up to 2025 (BK25). 
+I ave been working on identifying and resolving issues in the maps by tracing potential problems back to the raw data and earlier processing stages. 
+This work includes debugging anomalies, verifying data consistency, and ensuring the integrity of the input to the mainline pipeline.
+</p>
 
-Star formation is influenced by self-gravity, turbulence, and magnetic fields (B-fields), but 
-the precise role of B-fields in the evolution of dense clouds and the star formation process
-is not fully understood. Dust polarization from aligned grains provides a way to study B-fields. 
-Using the Davis-Chandrasekhar-Fermi (DCF) method, the strength of B-fields can be estimated from thermal dust polarization.
-<br>
-<br>
-This study measured <b> the plane-of-sky magnetic fields component in the M17 region using SOFIA/HAWC+ thermal dust polarization at 154 μm</b>. 
-We found strong B-fields of approximately 327 ± 34 μG in the lower-density region and 839 ± 80 μG in higher-density
-region. The gravitational mass-to-magnetic flux ratio and
-the relative contributions of B-fields and turbulence were examined. 
-Additionally, dust grain alignment was analyzed using the radiative torque paradigm.
-<br>
-<br>
-The study is published in the ApJ journal [ <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ac5abf" target="_blank">arxiv:2108.10045 </a>]
+<p>
+  The BICEP 9-year 95 GHz map has been purified (using a purification matrix) and convolved with a Mexican Hat Wavelet Filter (MHWF) 
+  for point source searches. Using the South Pole Telescope (SPT) catalog, I determined the BICEP/Keck point source locations for masking. 
+  This will mitigate the leakage to the CMB B-mode signal. 
 </p>
 
 
-<p> 
+<div class="success">
+  <h3 id="prototypePMU"> <strong> 7. LiteBIRD:</strong> Demonstration of a small prototype polarization modulator for LiteBIRD low-frequency telescope. </h3>
+</div>
+<center>
+  <img src="https://hoangducthuong.github.io/images/prototype_PMU_crop.png" alt="LiteBIRD PMU" width="65%">
+  <figcaption>
+  Figure: The experimental setup.
+  </figcaption>
+</center>
+
+  <p>
+    LiteBIRD telescopes employ polarization modulation units (PMU) using continuously rotating
+    achromatic half-wave plates (HWP). The PMU is a crucial component for archiving unprecedented sensitivity by mitigating
+    systematic effects, including 1/f noise. We developed a 1/10 scale prototype PMU of the LiteBIRD Low Frequency Telescope (LFT),
+    which has a 5-layer achromatic HWP and a diameter of 50 mm, spanning the observational frequency range of
+    34-161 GHz. The HWP is mounted on a superconducting magnetic bearing (SMB) as a rotor and levitated by a
+    high-temperature superconductor (YBCO) as a stator. 
+    <br>
+    <br>
+      In this study, the entire PMU system was cooled to 10 K in a cryostat chamber using a 4-K
+    Gifford-McMahon cooler. A coherent millimeter-wave polarized signal was passed through
+    the rotating HWP, and the resulting modulated signal was detected. <b>The HWP modulated
+    optical signal and rotational synchronous signals from the rotational mechanism were
+    analyzed</b>. The testbed was built to integrate the broadband HWP and assess potential
+    systematic effects in the optical data, paving the way for a full-scale model.
+    <br>
+
+    This study is published in the SPIE proceeding  [<a href="https://doi.org/10.1117/12.2630653" target="_blank"> SPIE</a>]. 
+    I recorded a video of the full prototype PMU system testbed in Liquid Nitrogen (77 K), 
+    the PMU is levitated and spun [<a href="https://youtu.be/NTO6RK_66rw" target="_blank"> HWP levitation</a>]
+</p>
+
+
+<div class="success">
+  <h3 id="magnetic"> <strong> 6. SOFIA:</strong> Magnetic fields toward M17 cloud. </h3>
+</div>
+<center>
+  <img src="https://hoangducthuong.github.io/images/M17_spitzer_GLM_data_crop_morphology_vectors.png" alt="M17 Spitzer" width="65%">
+  <figcaption>Figure: An RGB image of M17 (the  Omega  Nebula or Swan  Nebbula  also known as Horseshoe Nebula) in the constellation Sagittarius at a distance of 1.98 kpc, 
+  showing the Photodissociation Region (PDR).</figcaption>
+</center>
+
+  <p>
+    Star formation is influenced by self-gravity, turbulence, and magnetic fields (B-fields), but 
+    the precise role of B-fields in the evolution of dense clouds and the star formation process
+    is not fully understood. Dust polarization from aligned grains provides a way to study B-fields. 
+    Using the Davis-Chandrasekhar-Fermi (DCF) method, the strength of B-fields can be estimated from thermal dust polarization.
+    <br>
+    <br>
+    This study measured <b> the plane-of-sky magnetic fields component in the M17 region using SOFIA/HAWC+ thermal dust polarization at 154 μm</b>. 
+    We found strong B-fields of approximately 327 ± 34 μG in the lower-density region and 839 ± 80 μG in higher-density
+    region. The gravitational mass-to-magnetic flux ratio and
+    the relative contributions of B-fields and turbulence were examined. 
+    Additionally, dust grain alignment was analyzed using the radiative torque paradigm.
+    <br>
+    <br>
+    The study is published in the ApJ journal [ <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ac5abf" target="_blank">arxiv:2108.10045 </a>]
+</p>
+
+
+
 <div class="success">
    <h3 id="SO_test"> <strong>5. Simons Observatory (SO):</strong> Testbed focal plane.</h3> 
 </div>
@@ -258,35 +297,35 @@ The study is published in the ApJ journal [ <a href="https://iopscience.iop.org/
 <img src="https://hoangducthuong.github.io/images/SO_focalplane_testbed.png" alt="Cornell cryostat for Simons Observatory" width="80%">
 <figcaption>Figure: Testbed focal plane module of thousands Transistion Edge Sensors and readout system at Mike Niemack's Cosmology group - Cornell University.</figcaption>
 </center>
-The Simons Observatory (SO) aims to study the early universe and its evolution using 
-a 6-meter Cross-Dragone Large Aperture Telescope (LAT) and 
-three 42-cm Small Aperture Telescopes (SATs) equipped with <b>thousands of TES detectors in a Universal Focal Plane Module (UFM; see Figure)</b>. 
-The LAT measures CMB anisotropies at arcminute scales, while the SATs target low-foreground regions to detect B-mode signals.
-The UFM is a 4-centimeter tall by 15-centimeter hexagonal module with two main components: a Universal Microwave Multiplexing module (UMM) and a TES detector stack array. 
-The UMM consists of 100-mK cold components (μmux chips, an RF-wafer, and a DC-wafer), including microwave Superconducting Quantum Interference Devices (SQUID) and 
-a frequency domain multiplexing system, which drive and read out TES bolometers.
-<br>
-<br>
-I worked on the testbed system for the readout chain and UMM of the UFM: 
-<li> focusing on performance, screening, and design requirements. 
-Specifically, I <b>measured lumped shunt resistance on a 500 micromets thickness DC wafer</b> using both a warm microscope method
-and a cold four-wire measurement approach readout by our electronic system, from 100 mK
-to room temperature.  </li>
-<li>
-I also <b>embedded the UMM inside an external magnetic
-field </b>(generated by a Helmholtz coil) to observe shifts in resonators when the magnetic field
-is varied, as SQUIDs are sensitive to external magnetic fields. 
-</li>
-<li>
-Additionally, I used a system called the coldload to optically characterize the UFM by setting up a black-body radiation emission at the 4 K stage inside a dilution refrigerator.
-</li>
-<br>
-A study of external magnetic fields and the SO's readout system SQUID is published in [<a href="https://arxiv.org/abs/2012.04532" target="_blank"> arXiv:2012.04532 </a>]
+
+<p> 
+  The Simons Observatory (SO) aims to study the early universe and its evolution using 
+  a 6-meter Cross-Dragone Large Aperture Telescope (LAT) and 
+  three 42-cm Small Aperture Telescopes (SATs) equipped with <b>thousands of TES detectors in a Universal Focal Plane Module (UFM; see Figure)</b>. 
+  The LAT measures CMB anisotropies at arcminute scales, while the SATs target low-foreground regions to detect B-mode signals.
+  The UFM is a 4-centimeter tall by 15-centimeter hexagonal module with two main components: a Universal Microwave Multiplexing module (UMM) and a TES detector stack array. 
+  The UMM consists of 100-mK cold components (μmux chips, an RF-wafer, and a DC-wafer), including microwave Superconducting Quantum Interference Devices (SQUID) and 
+  a frequency domain multiplexing system, which drive and read out TES bolometers.
+  <br>
+  <br>
+  I worked on the testbed system for the readout chain and UMM of the UFM: 
+  <li> focusing on performance, screening, and design requirements. 
+  Specifically, I <b>measured lumped shunt resistance on a 500 micromets thickness DC wafer</b> using both a warm microscope method
+  and a cold four-wire measurement approach readout by our electronic system, from 100 mK
+  to room temperature.  </li>
+  <li>
+  I also <b>embedded the UMM inside an external magnetic
+  field </b>(generated by a Helmholtz coil) to observe shifts in resonators when the magnetic field
+  is varied, as SQUIDs are sensitive to external magnetic fields. 
+  </li>
+  <li>
+  Additionally, I used a system called the coldload to optically characterize the UFM by setting up a black-body radiation emission at the 4 K stage inside a dilution refrigerator.
+  </li>
+  <br>
+  A study of external magnetic fields and the SO's readout system SQUID is published in [<a href="https://arxiv.org/abs/2012.04532" target="_blank"> arXiv:2012.04532 </a>]
 </p>
 
 
-
-<p> 
 <div class="success">
   <h3 id="litebird"> <strong>4. LiteBIRD:</strong> Systematic effects. </h3> 
 </div>
@@ -295,91 +334,92 @@ A study of external magnetic fields and the SO's readout system SQUID is publish
 <figcaption>Figure: LiteBIRD: A Lite satellite for the studies of B-mode polarization and Inflation from cosmic background Radiation Detection.</figcaption>
 </center>
 
-LiteBird, a future CMB satellite, aim to measure the tensor-to-scalar r ratio 
-with a sensitivity σr ≤ 0.001, which is almost two orders of magnitude beyond the Planck sensitivity. 
-Several important systematic effects could contribute to final observation as 1/f noise, asymmetric beams, bandpass mismatches, the interaction of cosmic rays with the focal plane. 
-Bandpass mismatch error is one of the important systematic effects that can affect the current and next-generation measurements of the polarization of the CMB. 
-The slightly different frequency bandpasses among detectors induce leakage from intensity into CMB polarization. <br>
-<br>
+<p>
+  LiteBird, a future CMB satellite, aim to measure the tensor-to-scalar r ratio 
+  with a sensitivity σr ≤ 0.001, which is almost two orders of magnitude beyond the Planck sensitivity. 
+  Several important systematic effects could contribute to final observation as 1/f noise, asymmetric beams, bandpass mismatches, the interaction of cosmic rays with the focal plane. 
+  Bandpass mismatch error is one of the important systematic effects that can affect the current and next-generation measurements of the polarization of the CMB. 
+  The slightly different frequency bandpasses among detectors induce leakage from intensity into CMB polarization. <br>
+  <br>
 
-<b>I evaluated the level of this effect for future CMB satellite missions and estimated of 
-its possible impact on the final determination of the tensor-to-scalar ratio r</b>.  
-I simulated time streams with bandpass filter variations as observed in the Planck HFI. 
-Assuming nominal scanning strategies and detector parameters for LiteBIRD, 
-I projected data using the simplest map-making coaddition method. 
-Power spectra of residual EE and BB coming from the leakage maps are computed for 80 % sky fraction excluding the galactic plane. 
-The amplitude of leakage depends on the scanning strategy parameters. 
-The conclusion of this work is that the spurious angular power spectrum could potentially bias r for measurements of the reionization bump, and of the recombination bump. 
-The bandpass mismatch effect is negligible in case of an ideal HWP.
-<br> <br>
-The study is published in JCAP [<a href="https://arxiv.org/abs/1706.09486" target="_blank"> arXiv:1706.09486 </a>]
+  <b>I evaluated the level of this effect for future CMB satellite missions and estimated of 
+  its possible impact on the final determination of the tensor-to-scalar ratio r</b>.  
+  I simulated time streams with bandpass filter variations as observed in the Planck HFI. 
+  Assuming nominal scanning strategies and detector parameters for LiteBIRD, 
+  I projected data using the simplest map-making coaddition method. 
+  Power spectra of residual EE and BB coming from the leakage maps are computed for 80 % sky fraction excluding the galactic plane. 
+  The amplitude of leakage depends on the scanning strategy parameters. 
+  The conclusion of this work is that the spurious angular power spectrum could potentially bias r for measurements of the reionization bump, and of the recombination bump. 
+  The bandpass mismatch effect is negligible in case of an ideal HWP.
+  <br> <br>
+  The study is published in JCAP [<a href="https://arxiv.org/abs/1706.09486" target="_blank"> arXiv:1706.09486 </a>]
 </p>
 
 
-  <div class="success">
+<div class="success">
   <h3 id="qubic_tes"> <strong>3. QUBIC:</strong> Transition Edge Sensor (TES) array Calibration with radioactive source.</h3>
-
 </div>
   <center>
 <img src="https://hoangducthuong.github.io/images/QUBIC_TESarray_data.jpg" alt="Cornell cryostar for Simons Observatory" width="75%">
 <figcaption>241-Am radioactive source setup in front of an 256-TES arrays inside a cryostat at AstroParticles and Cosmology laboratory - Paris University.</figcaption>
 </center>
 
-I studied the interaction of particles with a 256 TESs array of the ground-based QUBIC(Q&U bolometric interferometer for cosmology) experiment. 
-In order to test the sensitivity of detectors to cosmic rays, the behavior of TES array will be similarly as study of collecting CMB photons from the sky. <br> 
-<br>
-An 241 Americium radioactive source was placed in front of the 256-TES array and cooling down to 300 mK. 
-When particles hit a TES pixel, the deposited energy transforms to temperature elevation of the TES components (eg: Thermometer, absorbing grid, substrate) 
-and also affect the neighbor pixels that provides a possible measurement of the cross-talk among pixels. <br>
-<br>
+<p>
+  I studied the interaction of particles with a 256 TESs array of the ground-based QUBIC(Q&U bolometric interferometer for cosmology) experiment. 
+  In order to test the sensitivity of detectors to cosmic rays, the behavior of TES array will be similarly as study of collecting CMB photons from the sky. <br> 
+  <br>
+  An 241 Americium radioactive source was placed in front of the 256-TES array and cooling down to 300 mK. 
+  When particles hit a TES pixel, the deposited energy transforms to temperature elevation of the TES components (eg: Thermometer, absorbing grid, substrate) 
+  and also affect the neighbor pixels that provides a possible measurement of the cross-talk among pixels. <br>
+  <br>
 
-This study characterized <b>TES thermal time constant (30-60 ms) and the readout system time constant (10-20ms) </b>.
-<br> <br>
-The study is published in [<a href="https://doi.org/10.1117/12.2312080" target="_blank"> https://doi.org/10.1117/12.2312080 </a>], and [<a href="https://arxiv.org/abs/2101.06787" target="_blank"> arXiv:2101.06787 </a>]
+  This study characterized <b>TES thermal time constant (30-60 ms) and the readout system time constant (10-20ms) </b>.
+  <br> <br>
+  The study is published in [<a href="https://doi.org/10.1117/12.2312080" target="_blank"> https://doi.org/10.1117/12.2312080 </a>], and [<a href="https://arxiv.org/abs/2101.06787" target="_blank"> arXiv:2101.06787 </a>]
 </p>
 
 
-<p>
-  <div class="success">
-  <h3 id="cosmicray"> <strong>1. Planck:</strong> Bolometer and Cosmic Rays.</h3> 
-  </div>
+
+
+<div class="success">
+<h3 id="cosmicray"> <strong>1. Planck:</strong> Bolometer and Cosmic Rays.</h3> 
+</div>
 
 <center>
 <img src="https://hoangducthuong.github.io/images/cumul_compare_week.png" alt="Planck HFI" width="65%">
 <figcaption>Figure: The agreement between analytical approach and MCMC simulation for number of events per deposit energy for Proton and Helium primary Cosmic Rays.</figcaption>
 </center>
 
-In my master thesis (2015), I worked on the topic: Cosmic rays (CRs) interaction with Planck satellite detectors. 
-The galactic particle of energy ∼1 GeV hit the silicon die of polarization sensitive bolometers (PSB) and spider wed bolometers (SWB). 
-The interaction produces long glitches (τ≈500 ms)on the scientific data. 
-Therefore the modeling, analysis, and simulation play a vital role to understand and characterize of the long glitches. 
-This understanding allows us to better remove the impact of the long glitches in polarization sensitive bolometers data. <br>
-<br>
-<b>I developed a simple model of the interaction of galactic particles with the silicon die</b> of the Planck bolometers. 
-I predicted the number of events per deposit energyd due to primary cosmic rays particles. 
-I have observed good agreements between the analytical approach and the Monte Carlo simulation method. 
+<p>
+  In my master thesis (2015), I worked on the topic: Cosmic rays (CRs) interaction with Planck satellite detectors. 
+  The galactic particle of energy ∼1 GeV hit the silicon die of polarization sensitive bolometers (PSB) and spider wed bolometers (SWB). 
+  The interaction produces long glitches (τ≈500 ms)on the scientific data. 
+  Therefore the modeling, analysis, and simulation play a vital role to understand and characterize of the long glitches. 
+  This understanding allows us to better remove the impact of the long glitches in polarization sensitive bolometers data. <br>
+  <br>
+  <b>I developed a simple model of the interaction of galactic particles with the silicon die</b> of the Planck bolometers. 
+  I predicted the number of events per deposit energyd due to primary cosmic rays particles. 
+  I have observed good agreements between the analytical approach and the Monte Carlo simulation method. 
 
-<br><br>
+  <br><br>
 
-Basing on this experienced study with Planck, I had been studying the interaction of cosmic rays with the focal plane of the LiteBIRD mission.
-<br> <br>
-Master thesis [<a href="https://hoangducthuong.github.io/slides/master_thesis.pdf" target="_blank"> pdf </a> ].
-
+  Basing on this experienced study with Planck, I had been studying the interaction of cosmic rays with the focal plane of the LiteBIRD mission.
+  <br> <br>
+  Master thesis [<a href="https://hoangducthuong.github.io/slides/master_thesis.pdf" target="_blank"> pdf </a> ].
 </p> 
 
 
 
+<div class="success">
+<h3 id="S4_survey"> <strong>2. CMB-S4:</strong> Survey strategy at Atacama-Chile. </h3>  
+</div>
+
+<center>
+<img src="https://hoangducthuong.github.io/images/lat_hist_highcadence_year_cosecant_145_nside64_horizontal_el40_az20160_38det_fov8.png" alt="Cornell cryostar for Simons Observatory" width="70%">
+<figcaption>Figure: The hitcount map of a single detector fo one year observation of a Large Aperture Telescope (LAT) at Atacama.</figcaption>
+</center>
+
 <p>
-
-  <div class="success">
-  <h3 id="S4_survey"> <strong>2. CMB-S4:</strong> Survey strategy at Atacama-Chile. </h3>  
-  </div>
- 
-  <center>
-  <img src="https://hoangducthuong.github.io/images/lat_hist_highcadence_year_cosecant_145_nside64_horizontal_el40_az20160_38det_fov8.png" alt="Cornell cryostar for Simons Observatory" width="70%">
-  <figcaption>Figure: The hitcount map of a single detector fo one year observation of a Large Aperture Telescope (LAT) at Atacama.</figcaption>
-  </center>
-
   Current and next ground-based CMB experiments will mainly deploy at two major sites, 
   the Simons Observatory at the Atacama Desert in Chile and the South Pole Observatory. 
   The observation strategy of an instrument plays an essential role in the ability to increasingly sensitive maps of the CMB polarization anisotropies. 
@@ -392,7 +432,6 @@ Master thesis [<a href="https://hoangducthuong.github.io/slides/master_thesis.pd
   <br>
   
   The detail study of CMB-S4 Large Aperture Tescope (LAT) at Chile is written in CMB-S4 website [ <a href="https://cmb-s4.uchicago.edu/wiki/index.php/Modulated_scan_high_cadence_LAT" target="_blank"> Modulate scan high cadence LAT </a> ].
-  
 </p> 
 
 
